@@ -2,10 +2,10 @@
   "name": "mibbit",
   "server": "irc.mibbit.com",
   "port": 6667,
-  "nick": "Heartmore",
-  "password": "super_secret",
+  "nick": "RyanMore",
+  "password": "rocket.. ",
   "nickserv": "Nickserv",
-  "channels": ["#havvy"],
+  "channels": ["#heartless"],
   "modules": ["sayAct"],
   "trigger": "@"
 }
