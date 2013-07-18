@@ -1,0 +1,10 @@
+{
+  "name": "mibbit",
+  "server": "irc.mibbit.com",
+  "port": 6667,
+  "nick": "Heartmore",
+  "password": "super_secret",
+  "nickserv": "Nickserv",
+  "channels": ["#havvy"],
+  "modules": ["sayAct"]
+}
