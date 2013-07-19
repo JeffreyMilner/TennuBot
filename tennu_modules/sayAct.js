@@ -5,7 +5,7 @@ module.exports = function TennuSayActModule (tennu) {
     }
 
     function act (command) {
-        tennu.act(command..args[0], command.args.slice(1).join(' '));
+        tennu.act(command.args[0], command.args.slice(1).join(' '));
     }
 
     return {

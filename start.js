@@ -2,6 +2,15 @@ var config = require('./config/mibbit.json');
 var Client = require('tennu').Client;
 var tennu = Client(config);
 
+
+tennu.on('privmsg', function (privmsg) {
+    if((/dance/.test(privmsg.message.toLowerCase())) || 
+        (/dances/.test(privmsg.message.toLowerCase()))) {
+        //tennu.act(privmsg.channel, "┌(・。・)┘ ♪ └(・1。・)┐ ♪ ┌(・。・)┘");
+        tennu.act(privmsg.channel, "dances with " + privmsg.nick);
+    }
+});
+
 /*
 // Simple echo capabilities.  (Don't want echo capabilities)
 tennu.on('privmsg', function (privmsg) {
