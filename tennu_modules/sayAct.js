@@ -1,11 +1,13 @@
 module.exports = function TennuSayActModule (tennu) {
 
     function say (command) {
-        tennu.say(command.args[0], command.args.slice(1).join(' '));
+        //if(command.sender != "o11c")
+            tennu.say(command.args[0], command.args.slice(1).join(' '));
     }
 
     function act (command) {
-        tennu.act(command.args[0], command.args.slice(1).join(' '));
+        //if(command.sender != "o11c")
+            tennu.act(command.args[0], command.args.slice(1).join(' '));
     }
 
     return {

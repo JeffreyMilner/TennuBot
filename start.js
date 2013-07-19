@@ -3,17 +3,26 @@ var Client = require('tennu').Client;
 var tennu = Client(config);
 
 
+// ##### Dances whenever it sees the wird dance or dances ####
+//tennu.on('privmsg', function (privmsg) {
+    //if((/dance/.test(privmsg.message.toLowerCase())) || 
+        //(/dances/.test(privmsg.message.toLowerCase()))) {
+        ////tennu.act(privmsg.channel, "┌(・。・)┘ ♪ └(・1。・)┐ ♪ ┌(・。・)┘");
+        //tennu.act(privmsg.channel, "dances with " + privmsg.nick);
+    //}
+//});
+
 tennu.on('privmsg', function (privmsg) {
-    if((/dance/.test(privmsg.message.toLowerCase())) || 
-        (/dances/.test(privmsg.message.toLowerCase()))) {
-        //tennu.act(privmsg.channel, "┌(・。・)┘ ♪ └(・1。・)┐ ♪ ┌(・。・)┘");
-        tennu.act(privmsg.channel, "dances with " + privmsg.nick);
+    if(/dies/.test(privmsg.message.toLowerCase()) &&
+        privmsg.nick.search(/r3/i) !== -1) {
+        tennu.say(privmsg.channel, "Stop dying r3!");
+        tennu.act(privmsg.channel, "brings r3 back to life");
     }
 });
 
 tennu.on('privmsg', function (privmsg) {
-    if(/!slap/.test(privmsg.message.toLowerCase()) && privmsg.channel === #havvy) { 
-        tennu.say(elanore, "!slap " + privmsg.nick);
+    if(/!slap/.test(privmsg.message.toLowerCase())) { 
+        tennu.say(privmsg.channel, "!slap " + privmsg.nick);
         //tennu.say(privmsg.channel, "It's not nice to go around slapping people " + privmsg.nick);
     }
 });
