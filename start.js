@@ -11,6 +11,13 @@ tennu.on('privmsg', function (privmsg) {
     }
 });
 
+tennu.on('privmsg', function (privmsg) {
+    if(/!slap/.test(privmsg.message.toLowerCase()) && privmsg.channel === #havvy) { 
+        tennu.say(elanore, "!slap " + privmsg.nick);
+        //tennu.say(privmsg.channel, "It's not nice to go around slapping people " + privmsg.nick);
+    }
+});
+
 /*
 // Simple echo capabilities.  (Don't want echo capabilities)
 tennu.on('privmsg', function (privmsg) {
