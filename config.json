@@ -1,0 +1,11 @@
+{
+  "name": "Name",
+  "server": "irc.example.com",
+  "port": 6667,
+  "nick": "BotName",
+  "password": "BotPassword",
+  "nickserv": "Nickserv",
+  "channels": [ "#channel" ],
+  "modules": [ "ModuleName" ],
+  "trigger": "TriggerKey"
+}

@@ -3,7 +3,7 @@ var Client = require('tennu').Client;
 var tennu = Client(config);
 
 
-// ##### Dances whenever it sees the wird dance or dances ####
+// ##### Dances whenever it sees the word dance or dances ####
 //tennu.on('privmsg', function (privmsg) {
     //if((/dance/.test(privmsg.message.toLowerCase())) || 
         //(/dances/.test(privmsg.message.toLowerCase()))) {
