@@ -17,7 +17,6 @@ module.exports = function TennuEightBallModule (tennu) {
         'Signs point to yes',
         'Without a doubt',
         'Yes',
-        'Yes –Without definitely',
         'You may rely on it',
         'Reply hazy, try again',
         'Ask again later',
