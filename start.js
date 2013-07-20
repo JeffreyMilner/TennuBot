@@ -20,12 +20,31 @@ tennu.on('privmsg', function (privmsg) {
     }
 });
 
+//tennu.on('privmsg', function (privmsg) {
+    //if(/!slap/.test(privmsg.message.toLowerCase())) { 
+        //tennu.slap(privmsg.nick);
+//        tennu.say(privmsg.channel, "@slap " + privmsg.nick);
+    //}
+//});
+
 tennu.on('privmsg', function (privmsg) {
-    if(/!slap/.test(privmsg.message.toLowerCase())) { 
-        tennu.say(privmsg.channel, "!slap " + privmsg.nick);
-        //tennu.say(privmsg.channel, "It's not nice to go around slapping people " + privmsg.nick);
+    if( (/hey/.test(privmsg.message.toLowerCase()) ||
+         /hi/.test(privmsg.message.toLowerCase()) ||
+         /hello/.test(privmsg.message.toLowerCase()) ||
+         /howdy/.test(privmsg.message.toLowerCase()) 
+        ) 
+        && (/r4/.test(privmsg.message.toLowerCase()))) { 
+
+        tennu.say(privmsg.channel, (greetings[Math.floor(Math.random()*greetings.length)]) + " " + privmsg.nick);
     }
 });
+
+var greetings = [
+    'Hi',
+    'Hello',
+    'Howdy',
+    'Hey'
+]
 
 /*
 // Simple echo capabilities.  (Don't want echo capabilities)
@@ -45,6 +64,5 @@ tennu.on('privmsg', function (privmsg) {
     tennu.say(chan, said);
 });
 */
-//tennu.require('./tennu_modules/sayAct');
 
 tennu.connect();
