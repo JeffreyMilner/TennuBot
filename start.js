@@ -28,12 +28,12 @@ tennu.on('privmsg', function (privmsg) {
 //});
 
 tennu.on('privmsg', function (privmsg) {
-    if( (/hey/.test(privmsg.message.toLowerCase()) ||
-         /hi/.test(privmsg.message.toLowerCase()) ||
-         /hello/.test(privmsg.message.toLowerCase()) ||
-         /howdy/.test(privmsg.message.toLowerCase()) 
+    if( (/\bhey\b/.test(privmsg.message.toLowerCase()) ||
+         /\bhi\b/.test(privmsg.message.toLowerCase()) ||
+         /\bhello\b/.test(privmsg.message.toLowerCase()) ||
+         /\bhowdy\b/.test(privmsg.message.toLowerCase()) 
         ) 
-        && (/r4/.test(privmsg.message.toLowerCase()))) { 
+        && (new RegExp('\\b' + config.nick + '\\b').test(privmsg.message.toLowerCase()))) { 
 
         tennu.say(privmsg.channel, (greetings[Math.floor(Math.random()*greetings.length)]) + " " + privmsg.nick);
     }

@@ -4,7 +4,11 @@ module.exports = function TennuDanceModule (tennu) {
         if(command.args[0] == "" || command.args[0] == null){
             tennu.say(command.channel, "Usage: @dance <target>");
         } else {
-            tennu.act(command.channel, "dances with " + command.args[0]);
+            if(command.args[0].match(/#\w+/g)) {
+                tennu.act(command.args[0], "dances with " + command.args[1]);
+            } else {
+                tennu.act(command.channel, "dances with " + command.args[0]);
+            }
         }
     }
 

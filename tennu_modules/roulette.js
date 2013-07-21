@@ -1,12 +1,12 @@
 module.exports = function TennuRouletteModule (tennu) {
 
-chambers = [ 0, 0, 0, 0, 0, 0 ];
+    chambers = [ 0, 0, 0, 0, 0, 0 ];
 
-function reload() {
-	chambers = [ 0, 0, 0, 0, 0, 0 ];
-	chambers[Math.floor(Math.random()*chambers.length)] = 1;
-	return 'reloads.';
-}
+    function reload() {
+        chambers = [ 0, 0, 0, 0, 0, 0 ];
+        chambers[Math.floor(Math.random()*chambers.length)] = 1;
+        return 'reloads.';
+    }
 
     function roulette (command) {
         var bullet = chambers.shift();

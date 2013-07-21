@@ -4,7 +4,11 @@ module.exports = function TennuEightBallModule (tennu) {
         if(command.args[0] == "" || command.args[0] == null){
             tennu.say(command.channel, "Usage: @8ball <Yes or no question>");
         } else {
-            tennu.say(command.channel, command.args[0] + "  " + (answers[Math.floor(Math.random()*answers.length)]));
+            if(command.args[0].match(/#\w+/g)) {
+                tennu.say(command.args[0], (answers[Math.floor(Math.random()*answers.length)]));
+            } else {
+                tennu.say(command.channel, (answers[Math.floor(Math.random()*answers.length)]));
+            }
         }
     };
 
@@ -27,7 +31,9 @@ module.exports = function TennuEightBallModule (tennu) {
         'My reply is no',
         'My sources say no',
         'Outlook not so good',
-        'Very doubtful'
+        'Very doubtful',
+        "No",
+        "Yes, definitely"
     ];
 
     return {

@@ -1,3 +1,5 @@
+// To turn off the log output, go to node_modules/tennu/node_modules/simple-irc-socket and comment out the console.log line up top
+
 {
   "name": "Name",
   "server": "irc.example.com",

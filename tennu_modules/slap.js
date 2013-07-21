@@ -7,7 +7,11 @@ module.exports = function TennuSlapModule (tennu) {
             for (i in slaps) {
                 eval(i + ' = slaps.' + i + '[Math.floor(Math.random()*slaps.' + i + '.length)];');
             }
-            tennu.act(command.channel, verb + ' ' + command.args[0] + ' ' + area + ' with a ' + size + ' ' + tool, true);
+            if(command.args[0].match(/#\w+/g)) {
+                tennu.act(command.args[0], verb + ' ' + command.args[1] + ' ' + area + ' with a(n) ' + size + ' ' + tool, true);
+            } else {
+                tennu.act(command.channel, verb + ' ' + command.args[0] + ' ' + area + ' with a(n) ' + size + ' ' + tool, true);
+            }
         }
     };
 
