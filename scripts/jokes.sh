@@ -46,9 +46,6 @@ else
     JokeCategory='haha'  # - http://www.randomjoke.com/topic/haha.php
 fi
 
-### End of Jokes Category ####
-
-
 recordid='/tmp/'$JokeCategory'id'
 category=$JokeCategory
 file1="/tmp/jokes_full_page.txt"

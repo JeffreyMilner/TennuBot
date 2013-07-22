@@ -3,6 +3,7 @@ module.exports = function TennuHelperModule (tennu) {
  var commands = [ "8ball", 
               "d20",
               "dance", 
+              "fact",
               "google", 
               "help", 
               "joke",
