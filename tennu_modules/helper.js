@@ -1,14 +1,20 @@
-var config = require('../config/mibbit.json');
-
 module.exports = function TennuHelperModule (tennu) {
 
+ var commands = [ "8ball", 
+              "d20",
+              "dance", 
+              "google", 
+              "help", 
+              "joke",
+              "roulette", 
+              "say",
+              "act", 
+              "slap",
+              "wikipedia" ];
+
     function helper (command) {
-        comList = config.modules.join(", ");
-        if(command.args[0].match(/#\w+/g)) {
-            tennu.say(command.args[0], "Commands: " + comList);
-        } else {
-            tennu.say(command.channel, "Commands: " + comList);
-        }
+        comList = commands.join(", ");
+        tennu.say(command.channel, "Commands: " + comList);
     }
 
     return {

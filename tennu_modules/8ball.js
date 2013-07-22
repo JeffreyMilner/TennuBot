@@ -4,11 +4,7 @@ module.exports = function TennuEightBallModule (tennu) {
         if(command.args[0] == "" || command.args[0] == null){
             tennu.say(command.channel, "Usage: @8ball <Yes or no question>");
         } else {
-            if(command.args[0].match(/#\w+/g)) {
-                tennu.say(command.args[0], (answers[Math.floor(Math.random()*answers.length)]));
-            } else {
-                tennu.say(command.channel, (answers[Math.floor(Math.random()*answers.length)]));
-            }
+            tennu.say(command.channel, (answers[Math.floor(Math.random()*answers.length)]));
         }
     };
 

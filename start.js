@@ -20,12 +20,11 @@ tennu.on('privmsg', function (privmsg) {
     }
 });
 
-//tennu.on('privmsg', function (privmsg) {
-    //if(/!slap/.test(privmsg.message.toLowerCase())) { 
-        //tennu.slap(privmsg.nick);
-//        tennu.say(privmsg.channel, "@slap " + privmsg.nick);
-    //}
-//});
+tennu.on('privmsg', function (privmsg) {
+    if(/facepalms/.test(privmsg.message.toLowerCase())) { 
+        tennu.act(privmsg.channel, "palmfaces");
+    }
+});
 
 tennu.on('privmsg', function (privmsg) {
     if( (/\bhey\b/.test(privmsg.message.toLowerCase()) ||
