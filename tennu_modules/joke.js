@@ -1,3 +1,5 @@
+var config = require('../config/mibbit.json');
+
 var sys = require('sys')
 var exec = require('child_process').exec;
 var child;
@@ -22,7 +24,7 @@ module.exports = function TennuJokeModule (tennu) {
                 }
             });
         } else if(command.args[0] == "-h") {
-            help = "@joke <oneliners | news | signs | nerd | professional | quotes | lightbulb | couples | riddles | religion | gross | blonde | politics | doit | laws | defs | dirty | ethnic | zippergate> - displ ays a random joke"
+            help = "" + config.trigger + "joke <oneliners | news | signs | nerd | professional | quotes | lightbulb | couples | riddles | religion | gross | blonde | politics | doit | laws | defs | dirty | ethnic | zippergate> - displ ays a random joke"
 
                 tennu.say(command.channel, help);
         } else {

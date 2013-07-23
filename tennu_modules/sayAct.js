@@ -1,8 +1,10 @@
+var config = require('../config/mibbit.json');
+
 module.exports = function TennuSayActModule (tennu) {
 
     function say (command) {
         if(command.args[0] == "" || command.args[0] == null){
-            tennu.say(command.channel, "Usage: @say <target> <message>");
+            tennu.say(command.channel, "Usage: " + config.trigger + "say <target> <message>");
         } else {
             tennu.say(command.args[0], command.args.slice(1).join(' '));
         }
@@ -10,7 +12,7 @@ module.exports = function TennuSayActModule (tennu) {
 
     function act (command) {
         if(command.args[0] == "" || command.args[0] == null){
-            tennu.say(command.channel, "Usage: @act <target> <message>");
+            tennu.say(command.channel, "Usage: " + config.trigger + "act <target> <message>");
         } else {
             tennu.act(command.args[0], command.args.slice(1).join(' '));
         }

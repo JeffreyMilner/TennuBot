@@ -1,3 +1,5 @@
+var config = require('../config/mibbit.json');
+
 var sys = require('sys')
 var exec = require('child_process').exec;
 var child;
@@ -19,7 +21,7 @@ module.exports = function TennuFactModule (tennu) {
                 }
             });
         } else if(command.args[0] == "-h") {
-            help = "@fact [-h]"
+            help = "" + config.trigger + "fact [-h]"
             tennu.say(command.channel, help);
         }
     }

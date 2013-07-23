@@ -30,6 +30,7 @@ tennu.on('privmsg', function (privmsg) {
     if( (/\bhey\b/.test(privmsg.message.toLowerCase()) ||
          /\bhi\b/.test(privmsg.message.toLowerCase()) ||
          /\bhello\b/.test(privmsg.message.toLowerCase()) ||
+         /\bwelcome\b/.test(privmsg.message.toLowerCase()) ||
          /\bhowdy\b/.test(privmsg.message.toLowerCase()) 
         ) 
         && (new RegExp('\\b' + config.nick + '\\b').test(privmsg.message.toLowerCase()))) { 

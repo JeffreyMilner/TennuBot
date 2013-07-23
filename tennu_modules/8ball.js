@@ -1,8 +1,10 @@
+var config = require('../config/mibbit.json');
+
 module.exports = function TennuEightBallModule (tennu) {
 
     function EightBall (command) {
         if(command.args[0] == "" || command.args[0] == null){
-            tennu.say(command.channel, "Usage: @8ball <Yes or no question>");
+            tennu.say(command.channel, "Usage: " + config.trigger + "8ball <Yes or no question>");
         } else {
             tennu.say(command.channel, (answers[Math.floor(Math.random()*answers.length)]));
         }
