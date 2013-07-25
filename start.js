@@ -21,7 +21,7 @@ tennu.on('privmsg', function (privmsg) {
 });
 
 tennu.on('privmsg', function (msg) { 
-    tennu.say(msg.channel, msg.args[1].substring(0,5));
+    //tennu.say(msg.channel, msg.args[1].substring(0,5));
     if(msg.args[1].substring(0,5) == '@join') {
         if(msg.args[1] == "" || msg.args[1] == null) {
             tennu.say(msg.channel, "Usage: " + config.trigger + "join <#channel>[, #channel]");
