@@ -7,7 +7,7 @@ String.prototype.beginsWith = function (string) {
 };
 
 tennu.on('privmsg', function (privmsg) {
-    if(/dies/.test(privmsg.message.toLowerCase()) &&
+    if(/dies/i.test(privmsg.message.toLowerCase()) &&
         privmsg.nick.search(/r3/i) !== -1) {
         tennu.say(privmsg.channel, "Stop dying r3!");
         tennu.act(privmsg.channel, "brings r3 back to life");
@@ -15,7 +15,7 @@ tennu.on('privmsg', function (privmsg) {
 });
 
 tennu.on('privmsg', function (privmsg) {
-    if(/facepalms/.test(privmsg.message.toLowerCase())) { 
+    if(/facepalms/i.test(privmsg.message.toLowerCase())) { 
         tennu.act(privmsg.channel, "palmfaces");
     }
 });
@@ -25,7 +25,7 @@ tennu.on('privmsg', function (msg) {
     if(msg.args[1].substring(0,5) == '@join') {
         if(msg.args[1] == "" || msg.args[1] == null) {
             tennu.say(msg.channel, "Usage: " + config.trigger + "join <#channel>[, #channel]");
-        } else if (new RegExp(config.ownerID).test(msg.sender)) {      
+        } else if (RegExp(config.ownerID).test(msg.sender)) {      
             newMsg = msg.args[1].substring(5).trim();
             newMsg = newMsg.split(',');
 
@@ -38,7 +38,7 @@ tennu.on('privmsg', function (msg) {
     } else if(msg.args[1].substring(0,5) == '@quit') {
         if(msg.args[1] == "" || msg.args[1] == null) {
             tennu.say(msg.channel, "Usage: " + config.trigger + "join <#channel>[, #channel]");
-        } else if (new RegExp(config.ownerID).test(msg.sender)) {      
+        } else if (RegExp(config.ownerID).test(msg.sender)) {      
             newMsg = msg.args[1].substring(5).trim();
             newMsg = newMsg.split(',');
 
@@ -52,13 +52,13 @@ tennu.on('privmsg', function (msg) {
 });
 
 tennu.on('privmsg', function (privmsg) {
-    if( (/\bhey\b/.test(privmsg.message.toLowerCase()) ||
-         /\bhi\b/.test(privmsg.message.toLowerCase()) ||
-         /\bhello\b/.test(privmsg.message.toLowerCase()) ||
-         /\bwelcome\b/.test(privmsg.message.toLowerCase()) ||
-         /\bhowdy\b/.test(privmsg.message.toLowerCase()) 
+    if( (/\bhey\b/i.test(privmsg.message.) ||
+         /\bhi\b/i.test(privmsg.message.) ||
+         /\bhello\b/i.test(privmsg.message.) ||
+         /\bwelcome\b/i.test(privmsg.message.) ||
+         /\bhowdy\b/i.test(privmsg.message.) 
         ) 
-        && (new RegExp('\\b' + config.nick + '\\b').test(privmsg.message.toLowerCase()))) { 
+        && (RegExp('\\b' + tennu.nick() + '\\b', 'i').test(privmsg.message.))) { 
 
         tennu.say(privmsg.channel, (greetings[Math.floor(Math.random()*greetings.length)]) + " " + privmsg.nick);
     }
