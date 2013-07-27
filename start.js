@@ -6,6 +6,8 @@ String.prototype.beginsWith = function (string) {
     return(this.indexOf(string) === 0);
 };
 
+// ########## Other functs ########## {{{
+// ######################################
 tennu.on('privmsg', function (privmsg) {
     if(/dies/i.test(privmsg.message.toLowerCase()) &&
         privmsg.nick.search(/r3/i) !== -1) {
@@ -19,7 +21,10 @@ tennu.on('privmsg', function (privmsg) {
         tennu.act(privmsg.channel, "palmfaces");
     }
 });
+// ################################ }}}
 
+// ########## Join/ Quit ########## {{{
+// ####################################
 tennu.on('privmsg', function (msg) { 
     //tennu.say(msg.channel, msg.args[1].substring(0,5));
     if(msg.args[1].substring(0,5) == '@join') {
@@ -50,7 +55,11 @@ tennu.on('privmsg', function (msg) {
         }
     }
 });
+// ################################ }}}
 
+
+// ########### Greeting ########### {{{
+// ####################################
 tennu.on('privmsg', function (privmsg) {
     if( (
          /\baloha\b/i.test(privmsg.message) ||
@@ -77,5 +86,6 @@ var greetings = [
     'Hey',
     'Shalom'
 ]
+// ################################ }}}
 
 tennu.connect();

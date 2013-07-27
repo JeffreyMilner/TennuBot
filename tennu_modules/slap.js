@@ -38,6 +38,10 @@ module.exports = function TennuSlapModule (tennu) {
         return this.indexOf(element) > -1;
     };
 
+
+
+
+    // Add encasings (encased in, surrounded by, dripping from etc), and (stuff for it to be surrounded/ dripping with
     var slaps = {
         verbs: [ "assaults", "attacks", "bashes", "beats", "blats", "bludgeons", "chokes", "claws", 
                  "crushes", "destroys", "elbows", "flattens", "hacks", "hits", "ignites", "jabs", "jostles", 
