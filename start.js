@@ -52,23 +52,30 @@ tennu.on('privmsg', function (msg) {
 });
 
 tennu.on('privmsg', function (privmsg) {
-    if( (/\bhey\b/i.test(privmsg.message.) ||
-         /\bhi\b/i.test(privmsg.message.) ||
-         /\bhello\b/i.test(privmsg.message.) ||
-         /\bwelcome\b/i.test(privmsg.message.) ||
-         /\bhowdy\b/i.test(privmsg.message.) 
+    if( (
+         /\baloha\b/i.test(privmsg.message) ||
+         /\bhey\b/i.test(privmsg.message) ||
+         /\bhi\b/i.test(privmsg.message) ||
+         /\bhello\b/i.test(privmsg.message) ||
+         /\bwelcome\b/i.test(privmsg.message) ||
+         /\bhowdy\b/i.test(privmsg.message) 
         ) 
-        && (RegExp('\\b' + tennu.nick() + '\\b', 'i').test(privmsg.message.))) { 
+        && (RegExp('\\b' + tennu.nick() + '\\b', 'i').test(privmsg.message))) { 
 
         tennu.say(privmsg.channel, (greetings[Math.floor(Math.random()*greetings.length)]) + " " + privmsg.nick);
     }
 });
 
 var greetings = [
+    'Aloha',
+    'Bonjour',
+    'Ciao',
     'Hi',
     'Hello',
     'Howdy',
-    'Hey'
+    'Hiya',
+    'Hey',
+    'Shalom'
 ]
 
 tennu.connect();

@@ -31,6 +31,7 @@ module.exports = function TennuEightBallModule (tennu) {
         'Outlook not so good',
         'Very doubtful',
         "No",
+        "Maybe...",
         "Yes, definitely"
     ];
 
