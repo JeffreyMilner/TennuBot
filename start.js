@@ -26,10 +26,8 @@ tennu.on('privmsg', function (privmsg) {
     }
 });
 
-//tennu.on('privmsg', function (privmsg) {
-    //if(/whois/i.test(privmsg.message)) { 
-        //_raw("NICK r5");
-    //}
+//tennu.on('!nick', function (privmsg) {
+        //tennu.raw("NICK " + privmsg.args[0]);
 //});
 
 
@@ -61,6 +59,16 @@ tennu.on('privmsg', function (msg) {
             for(ix = 0; ix < newMsg.length; ix++) {
                 tennu.part(newMsg[ix]);
             };
+        } else {
+            tennu.say(command.sender, "You do not have permission to use this command");
+        }
+    } else if(msg.args[1].substring(0,5) == '@nick') {
+        if(msg.args[1] == "" || msg.args[1] == null) {
+            tennu.say(msg.channel, "Usage: " + config.trigger + "join <#channel>[, #channel]");
+        } else if (RegExp(config.ownerID).test(msg.sender)) {      
+            newMsg = msg.args[1].substring(5).trim();
+            tennu.raw("NICK " + newMsg);
+
         } else {
             tennu.say(command.sender, "You do not have permission to use this command");
         }

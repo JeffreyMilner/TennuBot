@@ -1,9 +1,3 @@
-#clear
-
-#### Jokes Category ####
-# Uncomment ONE of the following:
-
-
 if [[ "$1" = "oneliners" ]]; then
     JokeCategory='oneliners'  # - http://www.randomjoke.com/topic/oneliners.php
 elif [[ "$1" = "news" ]]; then

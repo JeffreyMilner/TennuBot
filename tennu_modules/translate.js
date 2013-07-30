@@ -14,22 +14,32 @@ module.exports = function TennuTranslateModule (tennu) {
 
     function translate (command) {
         target = "~/bots/bot3-tennu/scripts/translate.sh ";
+        helpString = "Usage: " + config.trigger + "translate [-l] [-h] <From> <To> <TextToTranslate>"
+        langString = langs.join(", ");
 
          if(command.args[0] == "" || command.args[0] == null || command.args[0] == "-h") {
-            helpString = "" + config.trigger + "translate [-l] [-h] <From> <To> <TextToTranslate>"
             tennu.say(command.channel, helpString);
         } else if(command.args[0] == "-l") {
-            langString = langs.join(", ");
             tennu.say(command.channel, "Supported languages: " + langString);
         } else { 
             from = command.args[0];
-            if(!langs.contains(from)) {
-                tennu.say(command.channel, from + " is not a valid language choice, please try again");
-            }
             to = command.args[1];
-            if(!langs.contains(to)) {
+            if(!langs.contains(from) && !langs.contains(to)) {
+                tennu.say(command.channel, "Neither " + from + " nor " + to + " are valid language choices, please try again");
+                tennu.say(command.channel, "supported languages: " + langString);
+                tennu.say(command.channel, helpString);
+                return 0;
+            } else if(!langs.contains(from)) {
+                tennu.say(command.channel, from + " is not a valid language choice, please try again");
+                tennu.say(command.channel, "supported languages: " + langString);
+                tennu.say(command.channel, helpString);
+                return 0;
+            } else if(!langs.contains(to)) {
                 tennu.say(command.channel, to + " is not a valid language choice, please try again");
-            }
+                tennu.say(command.channel, "supported languages: " + langString);
+                tennu.say(command.channel, helpString);
+                return 0;
+            } 
             text = command.args.slice(2).join(' ');
 
             text = text.replace(/[\!\@\#\$\%\^\&\*\(\)\-\=\+\_\;\:\'\"\/\?\>\<\~\`\[\]\{\}\\\|\.\,]/gm, "");

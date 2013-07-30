@@ -45,13 +45,19 @@ module.exports = function TennuChuckModule (tennu) {
         list(command.channel);
     }
 
+    function quote (command) {
+        target = "~/bots/bot3-tennu/scripts/list.sh quotes"
+        list(command.channel);
+    }
+
     return {
         handlers : {
             "!chuck" : chuck,
             "!fact" : fact,
             "!fortune" : fortune,
             "!topic" : topic,
-            "!joke" : joke
+            "!joke" : joke,
+            "!quote" : quote
         }
     };
 };
