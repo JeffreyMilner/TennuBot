@@ -13,6 +13,7 @@ module.exports = function TennuHelperModule (tennu) {
                   "google", 
                   "help", 
                   "joke",
+                  "quote",
                   "roulette", 
                   "say",
                   "slap",
@@ -46,6 +47,8 @@ module.exports = function TennuHelperModule (tennu) {
             tennu.say(command.channel, "Useage: " + config.trigger + "help [command]");
         } else if(command.args[0] == "joke") {
             tennu.say(command.channel, "Useage: " + config.trigger + "joke [oneliners | news | signs | nerd | professional | quotes | lightbulb | couples | riddles | religion | gross | blonde | politics | doit | laws | defs | dirty | ethnic | zippergate]");
+        } else if(command.args[0] == "quote") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "quote");
         } else if(command.args[0] == "roulette") {
             tennu.say(command.channel, "Useage: " + config.trigger + "roulette");
         } else if(command.args[0] == "say") {

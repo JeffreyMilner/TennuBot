@@ -49,7 +49,7 @@ tennu.on('privmsg', function (msg) {
         } else {
             tennu.say(command.sender, "You do not have permission to use this command");
         }
-    } else if(msg.args[1].substring(0,5) == '@quit') {
+    } else if(msg.args[1].substring(0,5) == '@part') {
         if(msg.args[1] == "" || msg.args[1] == null) {
             tennu.say(msg.channel, "Usage: " + config.trigger + "join <#channel>[, #channel]");
         } else if (RegExp(config.ownerID).test(msg.sender)) {      

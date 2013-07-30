@@ -6,6 +6,10 @@ var child;
 
 module.exports = function TennuChuckModule (tennu) {
 
+    Array.prototype.contains = function(element){
+        return this.indexOf(element) > -1;
+    };
+    
     function list (channel) {
         child = exec(target, function (error, stdout, stderr) {
             output = stdout.toString().replace(/(\r\n|\n|\r)/gm," ");
@@ -24,7 +28,7 @@ module.exports = function TennuChuckModule (tennu) {
     }
 
     function fact (command) {
-        target = "~/bots/bot3-tennu/scripts/fact.sh";
+        target = "~/bots/bot3-tennu/scripts/list.sh fact";
         list(command.channel);
     }
 
@@ -39,16 +43,22 @@ module.exports = function TennuChuckModule (tennu) {
     }
 
     function joke (command) {
-        target = "~/bots/bot3-tennu/scripts/jokes.sh";
+        jokes = [ "oneliners", "news", "signs", "nerd", "professional", "quotes", "lightbulb", "couples", "riddles", "religion", "gross", "blonde", "politics", "doit", "laws", "defs", "dirty", "ethnic", "zippergate", ]
+        target = "~/bots/bot3-tennu/scripts/list.sh joke";
         query = command.args[0];
-        target = target + " " + query;
+        if(jokes.contains(query.toLowerCase())){
+            target = target + " " + query;
+        } else {
+            target = target + " haha";
+        }
         list(command.channel);
     }
 
     function quote (command) {
-        target = "~/bots/bot3-tennu/scripts/list.sh quotes"
+        target = "~/bots/bot3-tennu/scripts/list.sh quote"
         list(command.channel);
     }
+
 
     return {
         handlers : {

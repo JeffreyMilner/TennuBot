@@ -13,7 +13,7 @@ Array.prototype.contains = function(element){
 module.exports = function TennuTranslateModule (tennu) {
 
     function translate (command) {
-        target = "~/bots/bot3-tennu/scripts/translate.sh ";
+        target = "~/bots/bot3-tennu/scripts/list.sh trans ";
         helpString = "Usage: " + config.trigger + "translate [-l] [-h] <From> <To> <TextToTranslate>"
         langString = langs.join(", ");
 
@@ -42,8 +42,7 @@ module.exports = function TennuTranslateModule (tennu) {
             } 
             text = command.args.slice(2).join(' ');
 
-            text = text.replace(/[\!\@\#\$\%\^\&\*\(\)\-\=\+\_\;\:\'\"\/\?\>\<\~\`\[\]\{\}\\\|\.\,]/gm, "");
-            text = text.toLowerCase();
+            text = text.replace(/[\@\#\$\%\^\&\*\(\)\-\=\+\_\;\:\'\"\/\>\<\~\`\[\]\{\}\\\|]/gm, "");
 
             url =  "http://translate.google.com/translate_a/t?client=p&text=";
             url += text; 
