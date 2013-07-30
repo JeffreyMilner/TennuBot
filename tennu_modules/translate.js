@@ -15,7 +15,13 @@ module.exports = function TennuTranslateModule (tennu) {
     function translate (command) {
         target = "~/bots/bot3-tennu/scripts/translate.sh ";
 
-        if(command.args[0] != "" || command.args[0] != null) {
+         if(command.args[0] == "" || command.args[0] == null || command.args[0] == "-h") {
+            helpString = "" + config.trigger + "translate [-l] [-h] <From> <To> <TextToTranslate>"
+            tennu.say(command.channel, helpString);
+        } else if(command.args[0] == "-l") {
+            langString = langs.join(", ");
+            tennu.say(command.channel, "Supported languages: " + langString);
+        } else { 
             from = command.args[0];
             if(!langs.contains(from)) {
                 tennu.say(command.channel, from + " is not a valid language choice, please try again");
@@ -31,8 +37,7 @@ module.exports = function TennuTranslateModule (tennu) {
 
             url =  "http://translate.google.com/translate_a/t?client=p&text=";
             url += text; 
-            url += "/start.sh%22&hl=en";
-            url += "&sl=";
+            url += "/start.sh%22&hl=en&sl=";
             url += from;
             url += "&tl=";
             url += to;
@@ -47,9 +52,6 @@ module.exports = function TennuTranslateModule (tennu) {
                     tennu.say(command.channel, outArray[ix]);
                 }
             });
-        } else { // if(command.args[0] == "-h") {
-            helpString = "" + config.trigger + "translate <From> <To> <Text>"
-            tennu.say(command.channel, helpString);
         }
     }
 

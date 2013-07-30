@@ -3,17 +3,22 @@ var config = require('../config/mibbit.json');
 module.exports = function TennuHelperModule (tennu) {
 
  var commands = [ "8ball", 
-              "d20",
-              "dance", 
-              "fact",
-              "google", 
-              "help", 
-              "joke",
-              "roulette", 
-              "say",
-              "act", 
-              "slap",
-              "wikipedia" ];
+                  "act", 
+                  "calc",
+                  "chuck",
+                  "d20",
+                  "dance", 
+                  "fact",
+                  "fortune",
+                  "google", 
+                  "help", 
+                  "joke",
+                  "roulette", 
+                  "say",
+                  "slap",
+                  "topic",
+                  "translate",
+                  "wikipedia" ];
 
     function helper (command) {
         if(command.args[0] == "" || command.args[0] == null){
@@ -23,12 +28,18 @@ module.exports = function TennuHelperModule (tennu) {
             tennu.say(command.channel, "Useage: " + config.trigger + "8ball <yes or no question>")
         } else if(command.args[0] == "act") {
             tennu.say(command.channel, "Useage: " + config.trigger + "act <target> <message>")
+        } else if(command.args[0] == "calc") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "calc [-h] <mathToBeSolved>")
+        } else if(command.args[0] == "chuck") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "chuck");
         } else if(command.args[0] == "d20") {
             tennu.say(command.channel, "Useage: " + config.trigger + "d20");
         } else if(command.args[0] == "dance") {
-            tennu.say(command.channel, "Useage: " + config.trigger + "dance <target>");
+            tennu.say(command.channel, "Useage: " + config.trigger + "dance [target]");
         } else if(command.args[0] == "fact") {
             tennu.say(command.channel, "Useage: " + config.trigger + "fact");
+        } else if(command.args[0] == "fortune") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "fortune");
         } else if(command.args[0] == "google") {
             tennu.say(command.channel, "Useage: " + config.trigger + "google <search phrase>");
         } else if(command.args[0] == "help") {
@@ -41,6 +52,10 @@ module.exports = function TennuHelperModule (tennu) {
             tennu.say(command.channel, "Useage: " + config.trigger + "say <target> <message>");
         } else if(command.args[0] == "slap") {
             tennu.say(command.channel, "Useage: " + config.trigger + "slap [channel] <target>");
+        } else if(command.args[0] == "topic") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "topic");
+        } else if(command.args[0] == "translate") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "translate [-l] [-h] <fromLang> <toLang> <Message>");
         } else if(command.args[0] == "wikipedia") {
             tennu.say(command.channel, "Useage: " + config.trigger + "wikipedia <search phrase>") ;
         } else {

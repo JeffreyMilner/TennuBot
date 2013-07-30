@@ -2,6 +2,10 @@ var config = require('./config/mibbit.json');
 var Client = require('tennu').Client;
 var tennu = Client(config);
 
+Array.prototype.contains = function(element){
+    return this.indexOf(element) > -1;
+};
+
 String.prototype.beginsWith = function (string) {
     return(this.indexOf(string) === 0);
 };
@@ -9,7 +13,7 @@ String.prototype.beginsWith = function (string) {
 // ########## Other functs ########## {{{
 // ######################################
 tennu.on('privmsg', function (privmsg) {
-    if(/dies/i.test(privmsg.message.toLowerCase()) &&
+    if(/dies/i.test(privmsg.message) &&
         privmsg.nick.search(/r3/i) !== -1) {
         tennu.say(privmsg.channel, "Stop dying r3!");
         tennu.act(privmsg.channel, "brings r3 back to life");
@@ -17,12 +21,19 @@ tennu.on('privmsg', function (privmsg) {
 });
 
 tennu.on('privmsg', function (privmsg) {
-    if(/facepalms/i.test(privmsg.message.toLowerCase())) { 
+    if(/facepalms/i.test(privmsg.message)) { 
         tennu.act(privmsg.channel, "palmfaces");
     }
 });
-// ################################ }}}
 
+//tennu.on('privmsg', function (privmsg) {
+    //if(/whois/i.test(privmsg.message)) { 
+        //_raw("NICK r5");
+    //}
+//});
+
+
+// ################################ }}}
 // ########## Join/ Quit ########## {{{
 // ####################################
 tennu.on('privmsg', function (msg) { 
@@ -38,7 +49,7 @@ tennu.on('privmsg', function (msg) {
                 tennu.join(newMsg[ix]);
             };
         } else {
-            tennu.say(command.sender, "You do not hve permission to use this command");
+            tennu.say(command.sender, "You do not have permission to use this command");
         }
     } else if(msg.args[1].substring(0,5) == '@quit') {
         if(msg.args[1] == "" || msg.args[1] == null) {
@@ -51,41 +62,45 @@ tennu.on('privmsg', function (msg) {
                 tennu.part(newMsg[ix]);
             };
         } else {
-            tennu.say(command.sender, "You do not hve permission to use this command");
+            tennu.say(command.sender, "You do not have permission to use this command");
         }
     }
 });
 // ################################ }}}
-
-
 // ########### Greeting ########### {{{
 // ####################################
 tennu.on('privmsg', function (privmsg) {
-    if( (
-         /\baloha\b/i.test(privmsg.message) ||
-         /\bhey\b/i.test(privmsg.message) ||
-         /\bhi\b/i.test(privmsg.message) ||
-         /\bhello\b/i.test(privmsg.message) ||
-         /\bwelcome\b/i.test(privmsg.message) ||
-         /\bhowdy\b/i.test(privmsg.message) 
-        ) 
-        && (RegExp('\\b' + tennu.nick() + '\\b', 'i').test(privmsg.message))) { 
-
-        tennu.say(privmsg.channel, (greetings[Math.floor(Math.random()*greetings.length)]) + " " + privmsg.nick);
+    for(ix = 0; ix < greetings.length; ix++) {
+        if((RegExp('\\b' + greetings[ix] + '\\b', 'i').test(privmsg.message)) 
+            && (RegExp('\\b' + tennu.nick() + '\\b', 'i').test(privmsg.message))) { 
+            tennu.say(privmsg.channel, (greetings[Math.floor(Math.random()*greetings.length)]) + " " + privmsg.nick);
+        }
     }
 });
 
 var greetings = [
     'Aloha',
     'Bonjour',
+    'Buenos dias',
     'Ciao',
+    'Hei',
     'Hi',
     'Hello',
-    'Howdy',
-    'Hiya',
     'Hey',
+    'Hey there',
+    'Hiya',
+    'Hola',
+    'Howdy',
     'Shalom'
 ]
+
+tennu.on('join', function (message) {
+    if(message.actor != tennu.nick()) {
+        if(message.channel != "#havvy") {
+            tennu.say(message.channel, "Welcome " + message.actor + "!");
+        }
+    }
+});
 // ################################ }}}
 
 tennu.connect();
