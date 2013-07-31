@@ -26,11 +26,6 @@ tennu.on('privmsg', function (privmsg) {
     }
 });
 
-//tennu.on('!nick', function (privmsg) {
-        //tennu.raw("NICK " + privmsg.args[0]);
-//});
-
-
 // ################################ }}}
 // ########## Join/ Quit ########## {{{
 // ####################################
@@ -68,7 +63,15 @@ tennu.on('privmsg', function (msg) {
         } else if (RegExp(config.ownerID).test(msg.sender)) {      
             newMsg = msg.args[1].substring(5).trim();
             tennu.raw("NICK " + newMsg);
-
+        } else {
+            tennu.say(command.sender, "You do not have permission to use this command");
+        }
+    } else if(msg.args[1].substring(0,5) == '@serv') {
+        if(msg.args[1] == "" || msg.args[1] == null) {
+            tennu.say(msg.channel, "Usage: " + config.trigger + "serv <server commands>");
+        } else if (RegExp(config.ownerID).test(msg.sender)) {      
+            newMsg = msg.args[1].substring(5).trim();
+            tennu.raw(newMsg);
         } else {
             tennu.say(command.sender, "You do not have permission to use this command");
         }

@@ -1,335 +1,581 @@
-Where did you grow up?
-Do you have any pets?
-Do you have any siblings?
-Do you know what your your name means?
-What type of phone do you have?
-What did you do this past weekend?
-What are your plans for this weekend?
-What do you like to do in your spare time?
-What is the first thing you do when you wake up?
-What is the last thing you do before you go to sleep?
-What is your middle name?
-What was the last thing you purchased?
-What is your favorite holiday?
-What is your favorite day of the week?
-If you could meet anyone in history, who would it be?
-What do you like to do to relax?
-Are you a saver or a spender?
-Do you play any instruments?
-What was your favorite childrens book?
-What is your first childhood memory?
-What type of kid were you (e.g. spoiled, rebellious, well-behaved, quiet, obnoxious...)?
-What is one thing you miss about being a kid?
-What did you want to grow up to be when you were younger?
-Where did (do) you go to school?
-What was (is) your favorite subject?
-What was (is) your least favorite subject?
-What's the first thing you do after school/work?
-Were you the class clown or teacher's pet?
-What do you do for a living?
-What is your dream job?
-If you had $10 million, would you still be working/going to school?
-What was your least favorite job that you've ever had?
-Have you ever been fired?
-What is the first think you notice about a guy or girl?
-Have you ever been in love?
-Do you believe in soul mates?
-What are your turn offs?
-Do you believe in love at first sight?
-Do you prefer short hair or long hair on a guy/girl?
-What do you look for in a guy/girl?
-Who was the last person you called?
-Would you rather be rich and never find true love or be poor and find true love?
-Who is your favorite athlete?
-How often do you exercise?
-What is your favorite sports team?
-Do you play any sports?
-Where was the last place you went on vacation?
-Where do you plan on going for your next vacation?
-If you could live anywhere in the world, where would it be?
-What countries have you traveled to?
-What was your worst vacation experience?
-What is your favorite drink?
-What is your favorite food?
-What is your favorite meal of the day?
+A guy points a gun at someone to shoot them but, as he pulls the trigger, he changes his mind and aims off to the side. The bullet ricochets off a wall and kills the intended victim anyway. Is the shooter responsible?
+A relationship with love or one with sex? 
+Any embarrassing guilty pleasures?
 Are there any foods that you dislike or will not eat?
 Are there any foods that you would like to try?
-What is your favorite restaurant?
-What is your favorite pizza topping?
-What is your favorite ice cream flavor?
-What did you have for dinner last night?
-What is the signature dish that you cook?
-Who is your favorite actor?
-What is your favorite movie of all time?
-What was the worst movie you've ever seen?
-What is your favorite TV show?
-What was the last movie you've seen?
-What type of music do you like to listen to?
-Who is your favorite music artist?
-What was the last book you read?
-Who do you look up to?
-Where do you see yourself 5 years from now?
-What are you scared of?
-What is the best piece of advice you've received?
-What do your parents do for a living?
-What is your biggest regret?
-What is your most embarrassing moment?
-What is the craziest thing you've ever done?
-What are some of your short-term goals?
-What are some of your long-term goals?
-Do you sleep with a stuffed animal?
-Tell me about your first car.
-Do you drink coffee or tea?
-If you could have any super power, what would it be?
-If you were stranded on a deserted island and you could have only 1 item, what would it be?
-Do you believe in luck?
-Do you play video games?
-Do you believe people are inherently good?
-How often do you shower?
-What is your favorite board game?
-What is your favorite charity?
-Have you ever gotten a speeding ticket?
-Do you prefer cats or dogs?
-Would you prefer to live in the city or a rural area?
-What is your favorite season?
-Do you speak any other languages?
-Have you ever cried because you were so happy?
-What is the best thing that happened to you during the past week?
-What is the worst thing that happened to you during the past week?
-Do you sing in the shower?
-What is the most valuable thing that you own?
-What would you do if you only had 24 hours left to live?
-If you could have anyone do the voice-over for your reflections on life, who would it be? (a la the TV show The Wonder Years)
-What is one of the most adventurous things you’ve ever done?
-What’s the furthest place you’ve ever been from your current home?
-For you, what was the worst thing about being a freshman?
-What was the worst thing about being in middle school for you?
-Describe your senior year of high school in just a few sentences…
-What is something you like about yourself?
-What do you plan to do when you graduate?
-What is one of the best books you’ve ever read?
-What is the most recent book you read?
-What is one gadget you’d like to own?
-What’s your favorite Bible verse?
-What’s your favorite story from the Bible?
-Which Biblical character do you most relate to or identify with?
-Who is your best friend?
-Who was your best friend as a kid?
-Who was your best friend in middle school?
-Who was your best friend in high school?
-Who was your best friend in college?
-What is your earliest memory?
-Do you dream in color? How about in sound? How do you know?
-How has God used pain or trouble to help you grow?
-What is one thing you wish you had more time for in your life?
-How would you define the word “Christian?”
-If you could travel anywhere in the world, where would you go?
-With whom do you need to restore a broken relationship?
-What’s your favorite characteristic of God?
-What is one thing you’d like your parents to say to you now?
-What is one thing you wish your parents had said to you growing up?
-What would you like for your life to be like five years from now?
-What do you think your life to be like five years from now?
-Name one of your most favorite possessions.
-Did you have a childhood nickname? If so, what’s the story behind it?
-What is one question God might ask you?
-What is something you are looking forward to doing within the next six months?
-When do you get discouraged?
-What is your favorite part about being in the family of God?
-When do you feel the most vulnerable?
-If you could possess any extraordinary talent in one of the arts, what would you choose?
-Where in your daily routine could you become more aware of God’s presence?
-A year from now, how would you like to be more Christ-like?
-What small thing could you do for God this week?
-What’s your favorite musical group?
-What’s your most favorite concert you’ve ever been to?
-What is one way you can worship God this week without using music?
-Who is the most important person in your life and what could you do to enhance your relationship?
-What is your favorite outfit to wear?
-What is your goal in life?
-What are you dreaming about for your life?
-Who is a model of Christ-likeness in your life?
-What is one step God is calling you to take in faith to become more like Jesus?
-What is one regret you have from last week?
-If God could only say one thing to you, what do you think He would choose to say?
-Specifically, why do you worship God?
-If you could own the world’s largest collection of something, what would it be?
-What draws you closer to God more than anything else?
-What is the most important thing that makes a relationship successful?
-When you think about your future, what are you most excited about?
-What happened to you last week that you hope happens next week?
-If you could be one age for the rest of your life, how old would you choose to be?
-What is your most urgent prayer request right now?
-What is some place that you would really like to visit?
-What could we do to protect and promote the unity of our group?
-What are some of the changes you have seen in your life since you became a believer?
-What is one thing you hope will happen with this group?
-What one step can you take to connect with another believer at a more genuine, heart-to-heart level?
-What is one thing you’ve never done that you would really like to do?
-What is your least favorite chore to do at home?
-If you could invent a holiday, what and when would it be?
-Who had a profoundly positive influence on you as a child?
-If you died today, what would you most regret not having told someone?
-What is one verse of Scripture that you have memorized?
-Who do you wish would listen more closely to you?
-When do you feel most content?
-What’s one thing you like about your Mom?
-What’s one trait you admire about your Dad?
+Are there people you don't like? Are there people that don't like you?
+Are you a saver or a spender?
+Are you afraid of heights? Or what are you afraid of?
+Are you still learning who you are?
+Are you willing to stay away from your family if you ever have to for a job?
+At what age did you become an adult?
+Backpacks or satchels? 
+Best gift you ever gave/or got from someone?
+Can you walk well in high heels?
+City or nature person? 
+Coolest thing you've ever been for Halloween? 
+Crowds, small groups, or "Go away, I'm a loner"?
+Describe something that's happened to you for which had no explanation.
+Describe your ideal spouse? Home? Job?
+Describe yourself in 3 words.
+Did you ever create a superhero-self or an alter-ego when you were a kid?
+Did you ever want to kill someone?
 Did you get to know all four of your grandparents? If so, how old were you when they passed away?
-How often do / did you get to see your grandparents?
-Did you get to know any of your great-grandparents? If so, how old were you when they passed away?
-What’s the hardest thing for you to do?
-Have you ever written any poetry or songs? If so, what about?
-What are 3 qualities you want your friends to have?
-What do you think your life will be like 10 years from now?
-What do you hope your life will be like 10 years from now?
-If you could be a contestant on any game show, which one would you choose?
+Did you grow up in a small or big town? Did you like it? 
+Did you have a childhood nickname? If so, what's the story behind it?
+Did you like swinging as a child? Do you still get excited when you see a swing set? 
+Do you agree or disagree with this statement: A zoo has no useful purpose.
+Do you believe honesty is the best policy?
+Do you believe in fate?
+Do you believe in love at first sight?
+Do you believe in luck?
+Do you believe in soul mates?
+Do you believe long distance relationships can work?
+Do you believe people are inherently good?
+Do you dream in color? How about in sound? How do you know?
+Do you drink coffee or tea?
+Do you eat enough vegetables? 
+Do you get motion sickness? Any horror stories? 
+Do you have a favorite book or read much? Why or why not?
+Do you have a fetish?
 Do you have a visible scar? If so, how did you get it?
-When you are surprised with 30 free minutes during the day, how do you spend it?
-If you could change one thing about your school, what would it be?
-What aspect of God’s character are you very thankful for?
-What one question would you like to ask God?
-What “non-spiritual” activity in your life makes God smile?
-If you had one more day to live, how would you spend it?
-How did you get along with your parents during your teen years?
-What are 3 qualities you admire in one of your parents?
-In what area of your life do you need to trust God more?
-What one possession do you most cherish?
+Do you have any future financial plans?
+Do you have any nervous habits that you do?
+Do you have any pets?
+Do you have any political opinions?
+Do you have any regrets in life?
+Do you have any siblings?
+Do you have anyone you go to for advice? In person or online?
+Do you know what your your name means?
+Do you like guacamole? Have you ever been in a food fight? 
+Do you like horror movies? How about thrillers? 
+Do you like pets in the house?
+Do you like to go shopping, not buying, shopping?
+Do you more like your mom or your dad?
+Do you pick at scabs? 
+Do you play any instruments?
+Do you play any sports?
+Do you play sports or dance?
+Do you play video games?
+Do you prefer cats or dogs?
+Do you prefer reading books or watching movies?
+Do you prefer short hair or long hair on a guy/girl?
+Do you read any blogs? If so, whose and how often?
+Do you read? Which three books would you bring with you onto a desert island?
+Do you remember your first day of kindergarten? What was it like?
+Do you sing in the shower?
+Do you sing or play any instruments?
+Do you sleep with a stuffed animal?
+Do you speak any other languages?
+Do you swear in front of your parents? 
+Do you think it is important to learn any form of performing arts?
+Do you think love at first sight is possible?
+Do you think the past matters in a relationship?
+Do you use a reusable water bottle? If not, you should. 
+Do you want to get married? Have kids? 
+Ever been in love with 2 people at the same time? Do you think that's wrong?
+Ever had any relatives in jail?
+Ever sold/donated your blood? If you haven't do you want to?
+Favorite childhood memories?
+Favorite complement?
+Favorite food?
+Favorite kind of bean? Kidney? Black? Pinto? 
+Favorite toy as a child?
+First life memory?
+First time any of you broke the law?
+Five things you can’t live without.
+For you, what was the worst thing about being a freshman?
+Future honeymoon destination?
+Glass half full or half empty? Or is the glass just malformed?
+Greatest achievement?
+Have you ever been fired?
+Have you ever been in love?
+Have you ever been on a rollercoaster?
+Have you ever been stung by a bee?
+Have you ever climbed a tree more than twenty feet off the ground? 
+Have you ever cried because you were so happy?
+Have you ever eaten Ethiopian food? 
+Have you ever experimented with drugs?
+Have you ever felt really excluded from a group?
+Have you ever gotten a speeding ticket?
 Have you ever heard the voice of the Lord? If so, what did He say?
-Which Bible character do you think you are most like? Why?
-What was your very first job?
-If you could have any one super-power, which one would you choose and why?
-What’s your least favorite sound in the world?
-If you could personally witness any event in history, which one would you choose?
-What is one step you can take to become more like Christ?
-When you get an unexpected hour of free time, how do you spend it?
-List all of the cities you have lived in, and how long / what ages you lived there.
-Which church do you attend?
-When did you start attending church?
-When do you feel farthest from God?
-What’s your favorite name for God?
-Who’s someone you admire/respect? Why?
-What CD is in your CD player right now?
-What DVD is in your DVD player right now?
-What playlist is currently playing on your iPod right now?
-When you need just grocery – like a loaf of bread – where do you go to buy it?
-What’s the most needlessly repeated phrase a parent or teacher of yours ever uses / used?
-What would you order as your final meal?
-If you had an unlimited gift card to any one restaurant, which one would you choose?
+Have you ever taken dance lessons? Who would you want to dance with?
+Have you ever taken dancing classes?
+Have you ever tipped a cow?
+Have you ever used something other than "makeup" as makeup? (Like paint? Markers?) 
+Have you ever wanted something really bad and then later, not so much?
+Have you ever watched any major sporting event drunk? 
+Have you ever watched the Superbowl all the way through? 
+Have you ever written any poetry or songs? If so, what about?
+Have you had an experience you would say has impacted your life?
+Have you had to make an important decision that affected your life?
+How did you get along with your parents during your teen years?
+How did you get interested in [name of hobby or sport/etc]?
+How did you meet [host/mutual friend/signifigant other]?
+How different is your life from what you imagined it would be like when you were a kid?
+How do people often misunderstand you?
+How do you like to spend your free time?
+How do you spend time with your family?
+How do you spend your weekends
+How far can you throw a baseball? 
+How many children would you like to have – and how many of each gender?
+How many siblings do you have, and what are your relationships with them like?
+How often do / did you get to see your grandparents?
+How often do you check your e-mail? Facebook? Voice & text messages?
+How often do you exercise?
+How often do you shower?
+How would you define the word "Christian?"
+How would you like to be remembered when you are dead and gone?
+Ideal 5/10 year life plan
+Ideal vacation length?
+If one of your 5 senses could have supernatural abilities, which one sense would you choose?
+If you are allowed to do just one thing for the rest of your life, what would it be?
+If you could achieve the highest level of education in any one discipline, which would you choose?
+If you could be a contestant on any game show, which one would you choose?
+If you could be any fictional character, who would you choose?
+If you could be invisible for one day what would you do and why?
+If you could be on any Game Show, which one would you choose?
+If you could be on any Reality TV Show, which one would you choose?
+If you could be one age for the rest of your life, how old would you choose to be?
+If you could bring any person back to life, who would it be?
+If you could change one thing about [yourself/your past] what would you change?
+If you could change one thing about your school, what would it be?
+If you could change one thing about yourself, what would it be?
+If you could change the world what would you do and why?
+If you could change your natural hair color, would you? To what? 
+If you could choose anyone, who would you pick as your mentor?
+If you could choose to stay a certain age forever, what age would it be?
+If you could cure one type of disease, which one would you cure?
+If you could design the perfect TV channel, what would be on it?
+If you could get a Sharpie tattoo on your back, what would it be? 
+If you could go on a road trip where would you go?
+If you could go on a trip anywhere with three other people, where would you go and what three people would you take?
 If you could have a bottomless drink dispenser in your kitchen – like a faucet that just gave any one drink, anytime you wanted it – which drink would you choose?
-What is one of your most favorite worship songs?
-What common task could you start doing as if you were doing it directly for Jesus?
+If you could have any animal in the world as a pet, what animal would you choose?
+If you could have any one super-power, which one would you choose and why?
+If you could have any pet in the world, illegal or not, what would you get? 
+If you could have any super power, what would it be?
+If you could have anyone do the voice-over for your reflections on life, who would it be? (a la the TV show The Wonder Years)
+If you could invent a holiday, what and when would it be?
+If you could know the answer to any question, besides "What is the meaning of life?", what would it be?
+If you could learn to do anything, what would it be?
+If you could live anywhere in the United States for 6 months, where would you live? Why?
+If you could live anywhere in the world, where would it be?
+If you could live during any time period, which one would you choose?
+If you could live one whole week as any movie character, who would you pick?
+If you could make something disappear in you life what would it be and why?
+If you could meet a famous dead person, whom would you like to meet?
+If you could meet anyone in history, who would it be?
+If you could meet anyone, living or dead, who would you meet?
+If you could own the world’s largest collection of something, what would it be?
+If you could paint a picture of any scenery you've seen before, what would you paint?
+If you could personally witness any event in history, which one would you choose?
+If you could plan your own birthday celebration, what would you plan?
+If you could possess any extraordinary talent in one of the arts, what would you choose?
+If you could retire tomorrow, what would you do?
+If you could round up any five musicians or bands from history and have them all do a three-day music festival, which ones would you choose?
+If you could spend the day with any celebrity, who would it be? 
+If you could take a week and travel anywhere in the world, where would you go?
+If you could throw any kind of party, what would it be like and what would it be for?
+If you could travel anywhere in the world, where would you go?
+If you could use any mode of transportation to get somewhere, which one would you choose?
+If you could witness any event past, present or future, what would it be?
+If you could write an article for any magazine, which magazine would you choose, and what would your article be about?
+If you died today, what would you most regret not having told someone?
+If you had $10 million, would you still be working/going to school?
 If you had $10 to spend, how would you spend it?
 If you had $100 to spend, how would you spend it?
 If you had $1000 to spend, how would you spend it?
+If you had a previous relationship, why did your last relationship break?
 If you had a theme song (one that played every time you entered a room), which song would you choose?
-What is your favorite animal?
-Where were you born (hospital, state, city)?
-What is a particularly meaningful Bible verse to you?
-Where is your favorite place to eat?
+If you had an unlimited gift card to any one restaurant, which one would you choose?
+If you had one more day to live, how would you spend it?
+If you had three months left to live, how would you spend them? What would your last meal on Earth be?
+If you had to be named after a city, state, or country (etc), which would you want it to be?
+If you had to change your first name, what would you change it to?
+If you had to give up one of your five senses, which one would it be?
+If you had to have a cow or a pig, which would you take? Why? 
+If you had to look at one city skyline for the rest of your life, which would it be? 
+If you had to move to another country, where would you move? 
+If you had to work on only one project for the next year, what would it be?
+If you knew the world was ending in 2012, what would you do differently?
+If you were given 3 wishes what would they be and why?
+If you were immortal for a day, what would you do?
+If you were reincarnated as an animal/drink/ice cream flavor, what would it be?
+If you were stranded on a deserted island and you could have only 1 item, what would it be?
+If you won the lottery, what is the first thing you would do?
+Is money more important to you or relationships you share with people?
+Is there a movie that makes you cry no matter how many times you watch it?
+Is there any real idea of the perfect life?
+Is there something you constantly lose at your hours or anywhere?
+Last time you lost your temper?
+List all of the cities you have lived in, and how long / what ages you lived there.
+Longest plane ride you've ever been on? 
+Madonna or Lady Gaga? Neither? Both? Who 
+Margarine or butter? Which did you grow up with? 
+Most embarrassing moment from your 
+Most embarrassing moment from your high school years? 
+Most embarrassing moment from your middle school years? 
+Most embarrassing moment?
+Most hated chore on the chore list?
+Most memorable birthday?
+Mountains or the beach? View, or the tv?
+Name one of your most favorite possessions.
+Name the most terrifying moment of your life so far. Have you recovered from it?
+Oddest job ever?
+Phobias?
+Pirates or ninjas? Why? 
+Plain, train, or car? Boat, subway, or teleportation device?
+Recent life changes?
+Tequila story?
+The latest you've ever slept? 
+Three main goals in life?
+Time travel?
+Vietnamese? Korean? Nepalese? How was it? 
+Were you the class clown or teacher's pet?
+What CD is in your CD player right now?
+What DVD is in your DVD player right now?
+What are 3 qualities you admire in one of your parents?
+What are 3 qualities you want your friends to have?
+What are some of the changes you have seen in your life since you became a believer?
+What are some of your long-term goals?
+What are some of your short-term goals?
+What are you dreaming about for your life?
+What are you looking for in a relationship? In the long term or short term?
+What are you scared of?
+What are your bad habits?
 What are your favorite kinds of flowers?
-What toy from childhood was your favorite toy to play with?
-If one of your 5 senses could have supernatural abilities, which one sense would you choose?
-If you could have any animal in the world as a pet, what animal would you choose?
-What is one statement that you hope people will say about you after you die?
-If you could use any mode of transportation to get somewhere, which one would you choose?
-Who is your favorite cartoon character? Why?
-If you could live anywhere in the United States for 6 months, where would you live? Why?
-If you could cure one type of disease, which one would you cure?
-What is your favorite thing to do with friends?
+What are your plans for the weekend?
+What are your plans for this weekend?
+What are your secret talents?
+What are your turn offs?
+What are your views on open relationships?
+What books have you read more than once?
+What cheers you up?
+What chore do you absolutely hate doing?
+What common task could you start doing as if you were doing it directly for Jesus?
+What could we do to protect and promote the unity of our group?
+What countries have you traveled to?
+What dead person would you least want to be haunted by?
+What did you do for your latest birthday?
+What did you do growing up that got you into trouble?
+What did you do this past weekend?
+What did you do today?
+What did you have for dinner last night?
+What did you think about (such-and-such) movie?
+What did you want to grow up to be when you were younger?
+What do you constantly think about that, either makes you sad or just anything?
+What do you do for a living?
+What do you feel about cheating? Would you ever cheat? Would you take anyone back who cheated?
+What do you hope your life will be like 10 years from now?
+What do you like most about you?
+What do you like to do in your spare time?
+What do you like to do to relax?
+What do you look for in a guy/girl?
+What do you miss most about being a kid?
+What do you order or not order at a restaurant you have been to or never been to?
+What do you plan to do after you [graduate/retire/etc]?
+What do you plan to do when you graduate?
+What do you think Victoria's secret is?
+What do you think about [a news story/sports team/etc]?
+What do you think about unfaithfulness in a relationship?
+What do you think is the key to good parenting?
+What do you think of this expression: Where there was fire, ashes remain.
+What do you think the world will be like in 100 years?
+What do you think your life to be like five years from now?
+What do you think your life will be like 10 years from now?
+What do you want in a significant other?
+What do you want to be when you grow up?
+What do your parents do for a living?
+What event has changed her life destiny?
+What eye color do you find sexiest? 
+What famous person do people tell you that you most resemble?
+What gets you excited?
+What happened to you last week that you hope happens next week?
+What has made you a stronger person in life?
+What holidays do you celebrate? Are you a religious person or not?
+What is a particularly meaningful Bible verse to you?
+What is it that you are passionate about?
+What is one gadget you’d like to own?
 What is one motor vehicle that you would love to drive for the day?
-What’s your dream car?
+What is one of the best books you’ve ever read?
+What is one of the most adventurous things you’ve ever done?
+What is one of your favorite quotes?
+What is one of your most favorite worship songs?
 What is one opportunity you have had in the last week to help someone?
-What is the best thing that has happened to you recently?
-What is your favorite ice cream flavor and your favorite topping to put on ice cream?
-What thing doesn’t exist that someone needs to invent?
-What is one thing that happened to you this week that made you laugh?
-If we could have this meeting anywhere, where would you like to have it?
 What is one other hair-style you have had besides the one you currently have?
-If you could go on a trip anywhere with three other people, where would you go and what three people would you take?
-What is your favorite kind of fruit?
-What’s the biggest struggle you are facing in life right now?
-If you could be on any Game Show, which one would you choose?
-If you could be on any Reality TV Show, which one would you choose?
-If you could design the perfect TV channel, what would be on it?
-What is the scariest thing you’ve ever done?
-What one thing would you change about your house if you could?
-How many children would you like to have – and how many of each gender?
-What is something about God or Christianity that you have a hard time believing?
-What were you greatest weaknesses as a teenager?
-How many siblings do you have, and what are your relationships with them like?
 What is one personal tragedy you have overcome?
-If you could achieve the highest level of education in any one discipline, which would you choose?
-If you could write an article for any magazine, which magazine would you choose, and what would your article be about?
+What is one regret you have from last week?
+What is one statement that you hope people will say about you after you die?
+What is one step you can take to become more like Christ?
+What is one thing that happened to you this week that made you laugh?
+What is one thing you hope will happen with this group?
+What is one thing you miss about being a kid?
+What is one thing you wish you had more time for in your life?
+What is one thing you wish your parents had said to you growing up?
+What is one thing you’d like your parents to say to you now?
+What is one thing you’ve never done that you would really like to do?
+What is one verse of Scripture that you have memorized?
+What is some place that you would really like to visit?
+What is something you are looking forward to doing within the next six months?
+What is something you learned in the last week?
+What is something you like about yourself?
+What is the best advice you ever received?
+What is the best part about family life?
+What is the best piece of advice you've received?
+What is the best thing that happened to you during the past week?
+What is the best thing that has happened to you recently?
+What is the craziest thing you've ever done?
+What is the first thing you do when you wake up?
+What is the first think you notice about a guy or girl?
+What is the habit you are proudest of breaking or want to break?
+What is the last thing you do before you go to sleep?
+What is the longest you have gone without sleep?
+What is the most courageous thing you have ever done in your life?
+What is the most important thing in life?
+What is the most important thing that makes a relationship successful?
+What is the most memorable class you have ever taken?
+What is the most recent book you read?
+What is the most spontaneous thing you've done lately?
+What is the most valuable thing that you own?
+What is the nicest thing anyone has ever done for you?
+What is the one book you think everyone should be required to read?
+What is the one cleaning tip you swear by?
+What is the one thing about you that you take pride in?
+What is the one thing you most want to do?
+What is the one truly defining moment of your life so far?
+What is the scariest thing you’ve ever done?
+What is the signature dish that you cook?
+What is the strangest thing you have ever eaten?
+What is the weirdest thing about you?
+What is the weirdest thing about you? Are you proud of it? 
+What is the worst thing that happened to you during the past week?
+What is your biggest goal in life?
+What is your biggest regret?
+What is your definition of intimate?
+What is your dream job?
+What is your earliest memory?
+What is your favoirte [vacation experience/season/book/movie/childhood memory/etc] and why?
+What is your favorite TV show?
+What is your favorite animal?
+What is your favorite board game?
+What is your favorite body part?
+What is your favorite book?
+What is your favorite breakfast food?
+What is your favorite charity?
+What is your favorite commercial?
+What is your favorite day of the week?
+What is your favorite drink?
+What is your favorite food?
+What is your favorite form of exercise?
+What is your favorite holiday?
+What is your favorite ice cream flavor and your favorite topping to put on ice cream?
+What is your favorite ice cream flavor?
+What is your favorite kind of fruit?
+What is your favorite meal of the day?
+What is your favorite memory of your family?
+What is your favorite movie of all time?
+What is your favorite outfit to wear?
+What is your favorite pizza topping?
+What is your favorite restaurant?
+What is your favorite season?
+What is your favorite sports team?
+What is your favorite thing about life?
+What is your favorite thing to do with friends?
+What is your favorite thing to spend money on?
+What is your favorite time of day/day of the week/month of the year?
+What is your favorite word? Least favorite?
+What is your first childhood memory?
+What is your first memory of being really excited?
+What is your goal in life?
+What is your ideal vacation?
+What is your least favorite chore to do at home?
+What is your middle name?
+What is your most embarrassing moment?
+What is your most urgent prayer request right now?
+What is your opinion about premarital sex?
+What is your point of view of the world?
+What kind of music do you like? What are your top five bands?
+What kind of music you like?
+What kind of smoothie sounds really good right now? 
+What level of school was your preferred one?
+What motivates you?
+What one possession do you most cherish?
+What one step can you take to connect with another believer at a more genuine, heart-to-heart level?
+What one thing would you change about your house if you could?
+What outfit makes you feel the most sexiest or confident?
+What playlist is currently playing on your iPod right now?
+What sound do you love?
+What story does your family always tell about you?
+What stresses you the most?
+What surprising skills does she have?
+What thing doesn’t exist that someone needs to invent?
+What toy from childhood was your favorite toy to play with?
+What type of kid were you (e.g. spoiled, rebellious, well-behaved, quiet, obnoxious...)?
+What type of music do you like to listen to?
+What type of music do you listen to? (Genre, artists, songs?)
+What type of phone do you have?
+What was (is) your favorite subject?
+What was (is) your least favorite subject?
+What was one of the best parties you've ever been to?
+What was the best and the worst moment you spent with them?
+What was the first thing you bought with your own money?
+What was the last book you read?
+What was the last experience that made you a stronger person?
+What was the last movie you've seen?
+What was the last movie, TV show or book that made you cry or tear up?
+What was the last thing you purchased?
 What was the most recent movie you saw in the theater?
 What was the most recent stage performance you’ve seen?
-What’s the best stage performance you’ve ever seen?
-Do you have any nervous habits that you do?
-How often do you check your e-mail? Facebook? Voice & text messages?
-Do you read any blogs? If so, whose and how often?
-What would be the hardest thing for God to ask you to do?
-If you could plan your own birthday celebration, what would you plan?
-Who was your first crush?
-Who was your first celebrity crush?
-Who was your first kiss?
-First time any of you broke the law?
-Favorite childhood memories?
-What surprising skills does she have?
-Favorite complement?
-Time travel?
-What event has changed her life destiny?
-Oddest job ever?
-Any embarrassing guilty pleasures?
-Most hated chore on the chore list?
-Greatest achievement?
-Most memorable birthday?
-Future honeymoon destination?
-Recent life changes?
-What would you do if you won the lottery?
-What’s your theory on deja vu?
-What level of school was your preferred one?
-Worst date ever?
-What gets you excited?
-First life memory?
-Favorite toy as a child?
-What outfit makes you feel the most sexiest or confident?
-Do you have a fetish?
-How do you spend your weekends
-Favorite food?
-Best gift you ever gave/or got from someone?
-What is the one cleaning tip you swear by?
-Do you believe in fate?
-Tequila story?
-How would you like to be remembered when you are dead and gone?
-How do people often misunderstand you?
-Your ideas for a perfect night out
-Ideal vacation length?
-Ideal 5/10 year life plan
-Last time you lost your temper?
-Most embarrassing moment?
-What stresses you the most?
-Three main goals in life?
-Five things you can’t live without.
-Which movie/book are you ashamed to admit you love?
-What is the one book you think everyone should be required to read?
-What books have you read more than once?
-What did you do today?
-How do you like to spend your free time?
-What do you think about [a news story/sports team/etc]?
-What do you like and/or dislike about living in ______?
-Tell me about your biggest pet peeves.
-What motivates you?
-What do you like and/or dislike about [school/your job/etc]?
-How did you get interested in [name of hobby or sport/etc]?
-Tell me about your relationship with your family.
-What are your plans for the weekend?
-Where do you see yourself in [a year/3 years/5 years/etc]?
-What do you plan to do after you [graduate/retire/etc]?
-What would you do if [you won the lottery/lost your phone/etc]?
-Describe your ideal [spouse/job/home/etc].
-If you could change one thing about [yourself/your past] what would you change?
-What is your most embarrassing moment?
+What was the worst movie you've ever seen?
+What was the worst thing about being in middle school for you?
 What was your [childhood/high school experience/college experience/etc] like?
-What happened after I left last night?
-How did you meet [host/mutual friend/signifigant other]?
-What is your favoirte [vacation experience/season/book/movie/childhood memory/etc] and why?
+What was your favorite cartoon growing up? 
+What was your favorite childhood pet?
+What was your favorite childrens book?
+What was your favorite food when you were a child?
+What was your least favorite job that you've ever had?
+What was your very first job?
+What was your worst vacation experience?
+What were you greatest weaknesses as a teenager?
+What were you like as a kid?
+What will you have accomplished one year from now?
+What would be your ideal job?
+What would you do if [you won the lottery/lost your phone/etc]?
+What would you do if you only had 24 hours left to live?
+What would you do if you won the lottery?
+What would you do without electricity for 3 days?
+What would you if you wanted to live your life differently?
+What would you like for your life to be like five years from now?
+What would you order as your final meal?
+What's a secret about yourself you've never told anyone?
+What's one thing you think you would be really good at if you made the time to pursue it?
+What's one thing you wish you could change about yourself?
+What's one universally loved movie/song/celebrity that you just can't stand?
+What's the #1 most played song on your iPod?
+What's the best surprise your life has thrown you so far?
+What's the best/worst gift you've ever given/received?
+What's the craziest thing you've ever done on a dare?
+What's the first thing you do after school/work?
+What's the hardest thing you've ever done?
+What's the hardest you've ever tried not to laugh?
+What's the most absurd thing you've ever done to impress a crush?
+What's the most delicious food you've ever eaten in your life? 
+What's the most embarrassed you've ever felt?
+What's the most embarrassing thing you've ever seen?
+What's the sickest you have ever been?
+What's the worst Freudian slip you've ever made?
+What's your biggest fear?
+What's your favorite hobby?
+What's your favorite indoor/outdoor activity?
+What's your favorite knock-knock joke?
+What's your favorite movie and why?
+What's your favorite part of the day?
+What's your favorite thing about your job?
+What's your hometown? What was it like?
+What's your least favorite mode of transportation?
+What's your most favorite part of your body? 
+What's your most favorite part of your personality? 
+What's your oldest friend like?
+What's your typical Saturday night like?
+Whats one thing that's on your bucket list?
+What’s one thing you like about your Mom?
+What’s one trait you admire about your Dad?
+What’s the best stage performance you’ve ever seen?
+What’s the biggest struggle you are facing in life right now?
+What’s the furthest place you’ve ever been from your current home?
+What’s the hardest thing for you to do?
+What’s the most needlessly repeated phrase a parent or teacher of yours ever uses / used?
+What’s your dream car?
+What’s your favorite Bible verse?
+What’s your favorite musical group?
+What’s your favorite story from the Bible?
+What’s your least favorite sound in the world?
+What’s your most favorite concert you’ve ever been to?
+What’s your theory on deja vu?
+When did you start attending church?
+When do you feel most content?
+When do you feel the most vulnerable?
+When do you get discouraged?
+When was the last time you had an amazing meal?
+When was the last time you took a bus?
+When was the last time you were nervous?
+When was your first kiss?
+When you are surprised with 30 free minutes during the day, how do you spend it?
+When you get an unexpected hour of free time, how do you spend it?
+When you have 30 minutes of free-time, how do you pass the time?
+When you need just grocery – like a loaf of bread – where do you go to buy it?
+When you think about your future, what are you most excited about?
+Where did (do) you go to school?
+Where did you go to school? Are you happy with what you chose to study?
+Where did you grow up?
+Where do you plan on going for your next vacation?
+Where do you see yourself 5 years from now?
+Where do you see yourself in [a year/3 years/5 years/etc]?
+Where do you visualize yourself in 5 years, 10 years?
+Where do you work? Do you have any cool coworkers?
+Where is your favorite place to eat?
+Where was the last place you went on vacation?
+Where were you born (hospital, state, city)?
+Which Bible character do you think you are most like? Why?
+Which Biblical character do you most relate to or identify with?
+Which cartoon character do you resemble the most?
+Which church do you attend?
+Which continents have you been on? 
+Which do you use more often, the dictionary or the thesaurus?
+Which is the song that makes you happy?
+Which living celebrity/author/singer would you like to know?
+Which movie/book are you ashamed to admit you love?
+White, milk, or dark chocolate mocha? 
+Who do you look up to?
+Who do you think about most?
+Who do you wish would listen more closely to you?
+Who had a profoundly positive influence on you as a child?
+Who has influenced you the most?
+Who is a model of Christ-likeness in your life?
+Who is the most important person in your life and what could you do to enhance your relationship?
+Who is the most influential person for you so far in life?
+Who is your best friend?
+Who is your favorite actor?
+Who is your favorite athlete?
+Who is your favorite cartoon character? Why?
+Who is your favorite fictional character and why?
+Who is your favorite historical figure?
+Who is your favorite music artist?
+Who is your hero, do you have more than one?
+Who is your hero?
+Who was the last person you called?
+Who was the last person you thought about?
+Who was your best friend as a kid?
+Who was your best friend in college?
+Who was your best friend in high school?
+Who was your best friend in middle school?
+Who was your biggest role model when you were growing up?
+Who was your first celebrity crush?
+Who was your first crush?
+Who was your first kiss?
+Who was your first love?
+Who would you most like to be stuck in an elevator with? Who would you least like to be?
+Who's is someone you will never forget?
+Who's your favorite author/actor/musician/athlete?
+Who's your favorite relative?
+Whole, skim, 1%, or 2% milk? (Did you know they make 1 1/2% milk?) 
+Who’s someone you admire/respect? Why?
+With whom do you need to restore a broken relationship?
+Worst date ever?
+Would you buy a sweater covered in kitten pictures? Would you wear it if someone gave it you for free? 
+Would you ever like to adopt children?
+Would you prefer to live in the city or a rural area?
+Would you rather be rich and never find true love or be poor and find true love?
+Would you rather die as a total unknown who did great things or as a world-famous hero who didn't actually do the thing you were credited with?
+Would you rather follow your heart or your head?
+Would you rather go a week without bathing, but be able to change your clothes? Or a week without changing your clothes but be able to bathe.
+Would you rather take a submarine to the deepest part of the ocean or be the first person to walk on Mars?
+Would you scratch a crotch itch in public? 
+Would you wear a rainbow jacket? A neon yellow sweater? Checkered pants? 
+You're in a sinking boat with an old man, a dog, and someone who's just gotten out of prison. You can only save one. Which would it be?
+Your favorite adult as a child? (and not your parents, if they were your favorite) 
+Your ideas for a perfect night out
+ave you ever had something happen to you that you thought was bad but it turned out to be for the best?
+cares? 
+elementary school years? 
