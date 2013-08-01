@@ -45,11 +45,15 @@ module.exports = function TennuBombModule (tennu) {
         } else if(command.sender != reciever) {
             tennu.say(channel, "The bomb is not yours to defuse");
         } else {
-            if(command.args[0] != defuseColor) {
-                det(channel); 
+            if(colorList.contains(command.args[0])) {
+                if(command.args[0] != defuseColor) {
+                    det(channel); 
+                } else {
+                    tennu.say(channel, reciever + " has defused he bomb in time.");
+                    reciever = "";
+                }
             } else {
-                tennu.say(channel, reciever + " has defused he bomb in time.");
-                reciever = "";
+                tennu.say(channel, command.args[0] + " is not one of the availible colors");
             }
         }
     }
