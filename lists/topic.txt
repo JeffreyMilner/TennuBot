@@ -8,24 +8,32 @@ Are you a saver or a spender?
 Are you afraid of heights? Or what are you afraid of?
 Are you still learning who you are?
 Are you willing to stay away from your family if you ever have to for a job?
+Are your nails painted?
+Are your parents still married?
 At what age did you become an adult?
 Backpacks or satchels? 
 Best gift you ever gave/or got from someone?
+Can you walk in high heels?
 Can you walk well in high heels?
+Cats or dogs?
 City or nature person? 
 Coolest thing you've ever been for Halloween? 
 Crowds, small groups, or "Go away, I'm a loner"?
+Day or night?
 Describe something that's happened to you for which had no explanation.
 Describe your ideal spouse? Home? Job?
 Describe yourself in 3 words.
 Did you ever create a superhero-self or an alter-ego when you were a kid?
 Did you ever want to kill someone?
+Did you fail your driver test?
 Did you get to know all four of your grandparents? If so, how old were you when they passed away?
 Did you grow up in a small or big town? Did you like it? 
 Did you have a childhood nickname? If so, what's the story behind it?
 Did you like swinging as a child? Do you still get excited when you see a swing set? 
 Do you agree or disagree with this statement: A zoo has no useful purpose.
 Do you believe honesty is the best policy?
+Do you believe in being with someone for the rest of your life?
+Do you believe in divorce?
 Do you believe in fate?
 Do you believe in love at first sight?
 Do you believe in luck?
@@ -35,7 +43,10 @@ Do you believe people are inherently good?
 Do you dream in color? How about in sound? How do you know?
 Do you drink coffee or tea?
 Do you eat enough vegetables? 
+Do you enjoy online shopping?
 Do you get motion sickness? Any horror stories? 
+Do you have a computer?
+Do you have a desktop or laptop?
 Do you have a favorite book or read much? Why or why not?
 Do you have a fetish?
 Do you have a visible scar? If so, how did you get it?
@@ -49,14 +60,22 @@ Do you have anyone you go to for advice? In person or online?
 Do you know what your your name means?
 Do you like guacamole? Have you ever been in a food fight? 
 Do you like horror movies? How about thrillers? 
+Do you like horror stories?
 Do you like pets in the house?
+Do you like reptiles?
+Do you like rodents for pets?
+Do you like romance novels? 
+Do you like soda?
+Do you like the rain?
 Do you like to go shopping, not buying, shopping?
+Do you like to read?
 Do you more like your mom or your dad?
 Do you pick at scabs? 
 Do you play any instruments?
 Do you play any sports?
 Do you play sports or dance?
 Do you play video games?
+Do you prefer a firm or soft mattress?
 Do you prefer cats or dogs?
 Do you prefer reading books or watching movies?
 Do you prefer short hair or long hair on a guy/girl?
@@ -73,6 +92,8 @@ Do you think love at first sight is possible?
 Do you think the past matters in a relationship?
 Do you use a reusable water bottle? If not, you should. 
 Do you want to get married? Have kids? 
+Do you watch television?
+Do you wish you could live forever?
 Ever been in love with 2 people at the same time? Do you think that's wrong?
 Ever had any relatives in jail?
 Ever sold/donated your blood? If you haven't do you want to?
@@ -88,24 +109,40 @@ For you, what was the worst thing about being a freshman?
 Future honeymoon destination?
 Glass half full or half empty? Or is the glass just malformed?
 Greatest achievement?
+Have you ever been attacked by an animal of any kind?
+Have you ever been biten by a snake?
 Have you ever been fired?
 Have you ever been in love?
 Have you ever been on a rollercoaster?
+Have you ever been on a train?
+Have you ever been on television?
+Have you ever been out of the country?
 Have you ever been stung by a bee?
+Have you ever been to jail?
+Have you ever broken a bone?
 Have you ever climbed a tree more than twenty feet off the ground? 
 Have you ever cried because you were so happy?
 Have you ever eaten Ethiopian food? 
+Have you ever eaten anything exotic?
 Have you ever experimented with drugs?
 Have you ever felt really excluded from a group?
+Have you ever flown on an airplane?
 Have you ever gotten a speeding ticket?
 Have you ever heard the voice of the Lord? If so, what did He say?
+Have you ever held a snake?
+Have you ever just sat down and read a dictionary?
+Have you ever moved out of your parents house?
+Have you ever owned a trampoline?
+Have you ever ridden a trolley?
 Have you ever taken dance lessons? Who would you want to dance with?
 Have you ever taken dancing classes?
+Have you ever thought of joining the military?
 Have you ever tipped a cow?
 Have you ever used something other than "makeup" as makeup? (Like paint? Markers?) 
 Have you ever wanted something really bad and then later, not so much?
 Have you ever watched any major sporting event drunk? 
 Have you ever watched the Superbowl all the way through? 
+Have you ever wished that you could fly?
 Have you ever written any poetry or songs? If so, what about?
 Have you had an experience you would say has impacted your life?
 Have you had to make an important decision that affected your life?
@@ -118,12 +155,17 @@ How do you like to spend your free time?
 How do you spend time with your family?
 How do you spend your weekends
 How far can you throw a baseball? 
+How long do you spend on a computer daily?
 How many children would you like to have – and how many of each gender?
 How many siblings do you have, and what are your relationships with them like?
+How much sleep do you get a night?
 How often do / did you get to see your grandparents?
 How often do you check your e-mail? Facebook? Voice & text messages?
 How often do you exercise?
+How often do you get on Facebook?
 How often do you shower?
+How often do you trip and hurt yourself?
+How old were you when you lost your virginty?
 How would you define the word "Christian?"
 How would you like to be remembered when you are dead and gone?
 Ideal 5/10 year life plan
@@ -139,6 +181,7 @@ If you could be on any Reality TV Show, which one would you choose?
 If you could be one age for the rest of your life, how old would you choose to be?
 If you could bring any person back to life, who would it be?
 If you could change one thing about [yourself/your past] what would you change?
+If you could change one thing about your life, what would it be?
 If you could change one thing about your school, what would it be?
 If you could change one thing about yourself, what would it be?
 If you could change the world what would you do and why?
@@ -156,7 +199,9 @@ If you could have any one super-power, which one would you choose and why?
 If you could have any pet in the world, illegal or not, what would you get? 
 If you could have any super power, what would it be?
 If you could have anyone do the voice-over for your reflections on life, who would it be? (a la the TV show The Wonder Years)
+If you could have one thing you really want right now, what would it be?
 If you could invent a holiday, what and when would it be?
+If you could invent something that would help the entire world, what would it be?
 If you could know the answer to any question, besides "What is the meaning of life?", what would it be?
 If you could learn to do anything, what would it be?
 If you could live anywhere in the United States for 6 months, where would you live? Why?
@@ -179,6 +224,7 @@ If you could take a week and travel anywhere in the world, where would you go?
 If you could throw any kind of party, what would it be like and what would it be for?
 If you could travel anywhere in the world, where would you go?
 If you could use any mode of transportation to get somewhere, which one would you choose?
+If you could wish for one thing right this second, what would it be?
 If you could witness any event past, present or future, what would it be?
 If you could write an article for any magazine, which magazine would you choose, and what would your article be about?
 If you died today, what would you most regret not having told someone?
@@ -193,12 +239,14 @@ If you had one more day to live, how would you spend it?
 If you had three months left to live, how would you spend them? What would your last meal on Earth be?
 If you had to be named after a city, state, or country (etc), which would you want it to be?
 If you had to change your first name, what would you change it to?
+If you had to confess once thing right now, what would it be and to who?
 If you had to give up one of your five senses, which one would it be?
 If you had to have a cow or a pig, which would you take? Why? 
 If you had to look at one city skyline for the rest of your life, which would it be? 
 If you had to move to another country, where would you move? 
 If you had to work on only one project for the next year, what would it be?
 If you knew the world was ending in 2012, what would you do differently?
+If you only had one breath left, what would you say before you died?
 If you were given 3 wishes what would they be and why?
 If you were immortal for a day, what would you do?
 If you were reincarnated as an animal/drink/ice cream flavor, what would it be?
@@ -207,7 +255,10 @@ If you won the lottery, what is the first thing you would do?
 Is money more important to you or relationships you share with people?
 Is there a movie that makes you cry no matter how many times you watch it?
 Is there any real idea of the perfect life?
+Is there anyone you can picture yourself marrying?
+Is there anyone you want to date right now?
 Is there something you constantly lose at your hours or anywhere?
+Is your hair short or long? Which do you prefer?
 Last time you lost your temper?
 List all of the cities you have lived in, and how long / what ages you lived there.
 Longest plane ride you've ever been on? 
@@ -227,6 +278,7 @@ Phobias?
 Pirates or ninjas? Why? 
 Plain, train, or car? Boat, subway, or teleportation device?
 Recent life changes?
+Spring or Fall?
 Tequila story?
 The latest you've ever slept? 
 Three main goals in life?
@@ -248,11 +300,14 @@ What are your favorite kinds of flowers?
 What are your plans for the weekend?
 What are your plans for this weekend?
 What are your secret talents?
+What are your thoughts on euthanasia?
 What are your turn offs?
 What are your views on open relationships?
 What books have you read more than once?
 What cheers you up?
 What chore do you absolutely hate doing?
+What color are your walls painted in your room?
+What color is your shirt?
 What common task could you start doing as if you were doing it directly for Jesus?
 What could we do to protect and promote the unity of our group?
 What countries have you traveled to?
@@ -266,6 +321,7 @@ What did you think about (such-and-such) movie?
 What did you want to grow up to be when you were younger?
 What do you constantly think about that, either makes you sad or just anything?
 What do you do for a living?
+What do you enjoy doing most of the time?
 What do you feel about cheating? Would you ever cheat? Would you take anyone back who cheated?
 What do you hope your life will be like 10 years from now?
 What do you like most about you?
@@ -278,6 +334,7 @@ What do you plan to do after you [graduate/retire/etc]?
 What do you plan to do when you graduate?
 What do you think Victoria's secret is?
 What do you think about [a news story/sports team/etc]?
+What do you think about abortion?
 What do you think about unfaithfulness in a relationship?
 What do you think is the key to good parenting?
 What do you think of this expression: Where there was fire, ashes remain.
@@ -363,6 +420,7 @@ What is your favorite body part?
 What is your favorite book?
 What is your favorite breakfast food?
 What is your favorite charity?
+What is your favorite color?
 What is your favorite commercial?
 What is your favorite day of the week?
 What is your favorite drink?
@@ -385,6 +443,7 @@ What is your favorite thing to do with friends?
 What is your favorite thing to spend money on?
 What is your favorite time of day/day of the week/month of the year?
 What is your favorite word? Least favorite?
+What is your favortie fast food restaurant? 
 What is your first childhood memory?
 What is your first memory of being really excited?
 What is your goal in life?
@@ -399,6 +458,7 @@ What kind of music do you like? What are your top five bands?
 What kind of music you like?
 What kind of smoothie sounds really good right now? 
 What level of school was your preferred one?
+What meal did you last injest? 
 What motivates you?
 What one possession do you most cherish?
 What one step can you take to connect with another believer at a more genuine, heart-to-heart level?
@@ -410,6 +470,7 @@ What story does your family always tell about you?
 What stresses you the most?
 What surprising skills does she have?
 What thing doesn’t exist that someone needs to invent?
+What time were you born?
 What toy from childhood was your favorite toy to play with?
 What type of kid were you (e.g. spoiled, rebellious, well-behaved, quiet, obnoxious...)?
 What type of music do you like to listen to?
@@ -425,6 +486,8 @@ What was the last experience that made you a stronger person?
 What was the last movie you've seen?
 What was the last movie, TV show or book that made you cry or tear up?
 What was the last thing you purchased?
+What was the last thing you put in your mouth?
+What was the last thing your drank?
 What was the most recent movie you saw in the theater?
 What was the most recent stage performance you’ve seen?
 What was the worst movie you've ever seen?
@@ -434,13 +497,16 @@ What was your favorite cartoon growing up?
 What was your favorite childhood pet?
 What was your favorite childrens book?
 What was your favorite food when you were a child?
+What was your first car?
 What was your least favorite job that you've ever had?
 What was your very first job?
 What was your worst vacation experience?
+What was/is your least favorite subject in high school?
 What were you greatest weaknesses as a teenager?
 What were you like as a kid?
 What will you have accomplished one year from now?
 What would be your ideal job?
+What would you consider a good day?
 What would you do if [you won the lottery/lost your phone/etc]?
 What would you do if you only had 24 hours left to live?
 What would you do if you won the lottery?
@@ -464,6 +530,7 @@ What's the most delicious food you've ever eaten in your life?
 What's the most embarrassed you've ever felt?
 What's the most embarrassing thing you've ever seen?
 What's the sickest you have ever been?
+What's the weirdest last name you've ever heard?
 What's the worst Freudian slip you've ever made?
 What's your biggest fear?
 What's your favorite hobby?
@@ -497,8 +564,13 @@ When did you start attending church?
 When do you feel most content?
 When do you feel the most vulnerable?
 When do you get discouraged?
+When is your birthday?
+When was the last time you cried?
 When was the last time you had an amazing meal?
+When was the last time you looked at the time?
+When was the last time you moved?
 When was the last time you took a bus?
+When was the last time you were in the car?
 When was the last time you were nervous?
 When was your first kiss?
 When you are surprised with 30 free minutes during the day, how do you spend it?
@@ -506,7 +578,9 @@ When you get an unexpected hour of free time, how do you spend it?
 When you have 30 minutes of free-time, how do you pass the time?
 When you need just grocery – like a loaf of bread – where do you go to buy it?
 When you think about your future, what are you most excited about?
+Where are you ancestors from?
 Where did (do) you go to school?
+Where did you go the last time you were in the car?
 Where did you go to school? Are you happy with what you chose to study?
 Where did you grow up?
 Where do you plan on going for your next vacation?
@@ -517,6 +591,7 @@ Where do you work? Do you have any cool coworkers?
 Where is your favorite place to eat?
 Where was the last place you went on vacation?
 Where were you born (hospital, state, city)?
+Where were you born?
 Which Bible character do you think you are most like? Why?
 Which Biblical character do you most relate to or identify with?
 Which cartoon character do you resemble the most?
@@ -527,24 +602,31 @@ Which is the song that makes you happy?
 Which living celebrity/author/singer would you like to know?
 Which movie/book are you ashamed to admit you love?
 White, milk, or dark chocolate mocha? 
+Who did you text last?
 Who do you look up to?
 Who do you think about most?
+Who do you want to kiss right now?
 Who do you wish would listen more closely to you?
 Who had a profoundly positive influence on you as a child?
 Who has influenced you the most?
 Who is a model of Christ-likeness in your life?
+Who is someone you wish you could get to know more?
 Who is the most important person in your life and what could you do to enhance your relationship?
 Who is the most influential person for you so far in life?
 Who is your best friend?
 Who is your favorite actor?
 Who is your favorite athlete?
+Who is your favorite band?
 Who is your favorite cartoon character? Why?
 Who is your favorite fictional character and why?
 Who is your favorite historical figure?
 Who is your favorite music artist?
 Who is your hero, do you have more than one?
 Who is your hero?
+Who makes you happiest?
+Who was the last person who made you smile?
 Who was the last person you called?
+Who was the last person you hugged?
 Who was the last person you thought about?
 Who was your best friend as a kid?
 Who was your best friend in college?
@@ -556,6 +638,7 @@ Who was your first crush?
 Who was your first kiss?
 Who was your first love?
 Who would you most like to be stuck in an elevator with? Who would you least like to be?
+Who would you say knows you more than anything?
 Who's is someone you will never forget?
 Who's your favorite author/actor/musician/athlete?
 Who's your favorite relative?
@@ -565,6 +648,7 @@ With whom do you need to restore a broken relationship?
 Worst date ever?
 Would you buy a sweater covered in kitten pictures? Would you wear it if someone gave it you for free? 
 Would you ever like to adopt children?
+Would you like to visit space one day?
 Would you prefer to live in the city or a rural area?
 Would you rather be rich and never find true love or be poor and find true love?
 Would you rather die as a total unknown who did great things or as a world-famous hero who didn't actually do the thing you were credited with?
@@ -576,6 +660,6 @@ Would you wear a rainbow jacket? A neon yellow sweater? Checkered pants?
 You're in a sinking boat with an old man, a dog, and someone who's just gotten out of prison. You can only save one. Which would it be?
 Your favorite adult as a child? (and not your parents, if they were your favorite) 
 Your ideas for a perfect night out
-ave you ever had something happen to you that you thought was bad but it turned out to be for the best?
+Have you ever had something happen to you that you thought was bad but it turned out to be for the best?
 cares? 
 elementary school years? 
