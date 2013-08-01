@@ -4,6 +4,7 @@ module.exports = function TennuHelperModule (tennu) {
 
  var commands = [ "8ball", 
                   "act", 
+                  "bomb",
                   "calc",
                   "chuck",
                   "d20",
@@ -29,6 +30,8 @@ module.exports = function TennuHelperModule (tennu) {
             tennu.say(command.channel, "Useage: " + config.trigger + "8ball <yes or no question>")
         } else if(command.args[0] == "act") {
             tennu.say(command.channel, "Useage: " + config.trigger + "act <target> <message>")
+        } else if(command.args[0] == "bomb") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "bomb <target>")
         } else if(command.args[0] == "calc") {
             tennu.say(command.channel, "Useage: " + config.trigger + "calc [-h] <mathToBeSolved>")
         } else if(command.args[0] == "chuck") {
