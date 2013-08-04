@@ -12,6 +12,7 @@ module.exports = function TennuHelperModule (tennu) {
                   "fact",
                   "fortune",
                   "google", 
+                  "hangman",
                   "help", 
                   "joke",
                   "quote",
@@ -46,6 +47,8 @@ module.exports = function TennuHelperModule (tennu) {
             tennu.say(command.channel, "Useage: " + config.trigger + "fortune");
         } else if(command.args[0] == "google") {
             tennu.say(command.channel, "Useage: " + config.trigger + "google <search phrase>");
+        } else if(command.args[0] == "hangman") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "hangman");
         } else if(command.args[0] == "help") {
             tennu.say(command.channel, "Useage: " + config.trigger + "help [command]");
         } else if(command.args[0] == "joke") {

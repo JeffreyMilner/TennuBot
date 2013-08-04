@@ -4,6 +4,10 @@ elif [[ "$1" = "topic" ]]; then
     cat ~/bots/bot3-tennu/lists/topic.txt | shuf | head -1
 elif [[ "$1" = "quote" ]]; then
     cat ~/bots/bot3-tennu/lists/quotes.txt | shuf | head -1
+elif [[ "$1" = "anagram" ]]; then
+    cat ~/bots/bot3-tennu/lists/lib.txt | shuf | head -1
+elif [[ "$1" = "hangman" ]]; then
+    cat ~/bots/bot3-tennu/lists/lib.txt | shuf | head -1
 elif [[ "$1" = "joke" ]]; then
     category=$2
     file="/tmp/joke.txt"

@@ -106,7 +106,9 @@ var greetings = [
 ]
 
 tennu.on('join', function (message) {
-    if(message.actor != tennu.nick()) {
+    if(message.actor != tennu.nick() &&  !config.safeList.contains(message.actor.toLowerCase()) && message.channel == "#mytest") {
+        tennu.raw("KICK " + message.channel + " " + message.actor);
+    } else if(message.actor != tennu.nick()) {
         if(message.channel != "#havvy") {
             tennu.say(message.channel, "Welcome " + message.actor + "!");
         }
