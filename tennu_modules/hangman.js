@@ -35,7 +35,7 @@ module.exports = function TennuHangmanModule (tennu) {
                 wordSoFar += "_ ";
             }
         }
-        tennu.say(channel, "The word so far is: " + wordSoFar);
+        tennu.say(channel, "The word so far is: " + wordSoFar + " and these letters have been guessed: " + displayGuessed());
     }   
 
     function winner() {
@@ -60,7 +60,8 @@ module.exports = function TennuHangmanModule (tennu) {
         guessedarray = guessed.split('');
         guessedarray.sort();
         guessed = guessedarray.join('');
-        tennu.say(channel, "you have guessed these letters so far:" + guessed);
+        //tennu.say(channel, "you have guessed these letters so far:" + guessed);
+        return guessed;
     }
 
     function guess (command) {
@@ -84,7 +85,7 @@ module.exports = function TennuHangmanModule (tennu) {
             displayToGuess();
             displayGuessed();
             if(guesses >= lives) {
-                end(solver, "dead");
+                end(command.sender, "dead");
             }
             if(winner()) {
                 end(command.sender, "won");

@@ -25,7 +25,6 @@ module.exports = function TennuBombModule (tennu) {
     function bomb (command) {
         channel = command.channel;
         if(command.args[0] == "" || command.args[0] == null){
-            //tennu.say(channel, "You need to specify a target " + command.sender);
             reciever = command.sender;
         } else if(running) {
             tennu.say(channel, "There is already a bomb in play") 
