@@ -51,14 +51,14 @@ tennu.on('!show', function(command) {
 tennu.on('privmsg', function (msg) { 
     channel = msg.channel;
     //tennu.say(channel, "Msg: " + msg.args[1]);
-    if (RegExp(config.ownerID).test(msg.sender)) {      
+    if (RegExp(config.ownerID).test(msg.sender) ) {      
         if(msg.args[1] == "" || msg.args[1] == null) {
             tennu.say(msg.channel, "This command needs an argument");
         } else if(msg.args[1].substring(0,5) == '@join') {
-            newMsg = msg.args[1].substring(5).trim();
+            newMsg = msg.args[1].trim().split(' ');
             tennu.join(newMsg[1]);
         } else if(msg.args[1].substring(0,5) == '@part') {
-            newMsg = msg.args[1].substring(5).trim();
+            newMsg = msg.args[1].trim().split(' ');
             tennu.part(newMsg[1]);
         } else if(msg.args[1].substring(0,5) == '@nick') {
             newMsg = msg.args[1].substring(5).split(' ');
@@ -68,7 +68,6 @@ tennu.on('privmsg', function (msg) {
             tennu.raw(newMsg);
         } else if(msg.args[1].substring(0,8) == '@addsafe') {
             newMsg = msg.args[1].substring(8).trim().split(" ");
-            tennu.say(channel, "NewMsg " + newMsg[0]);
             fs.readFile("./config/mibbit.json", 'utf8', function (err, data) {
                 if (err) { console.log('Error: ' + err); return; } 
 

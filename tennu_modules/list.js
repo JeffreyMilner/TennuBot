@@ -13,6 +13,10 @@ module.exports = function TennuChuckModule (tennu) {
     function list (channel) {
         child = exec(target, function (error, stdout, stderr) {
             output = stdout.toString().replace(/(\r\n|\n|\r)/gm," ");
+            if(output == "" || output == null) {
+                console.log("EMPTY!!!!!" + error);
+                return 0;
+            }
             output = output.replace(/(\s+|\t)/gm, " ");
             output = output.trim();
             outArray = output.match(/.{1,450}/g);
@@ -43,10 +47,26 @@ module.exports = function TennuChuckModule (tennu) {
     }
 
     function joke (command) {
-        jokes = [ "oneliners", "news", "signs", "nerd", "professional", "quotes", "lightbulb", "couples", "riddles", "religion", "gross", "blonde", "politics", "doit", "laws", "defs", "dirty", "ethnic", "zippergate", ]
-        target = "~/bots/bot3-tennu/scripts/list.sh joke";
+        jokes = [ "oneliners", "news", "signs", "nerd", "professional", "quotes", "lightbulb", "couples", "riddles", "religion", "gross", "blonde", "politics", "doit", "laws", "defs", "dirty", "ethnic", "zippergate" ];
+        target = "~/bots/bot3-tennu/scripts/list.sh joke ";
         query = command.args[0];
         if(jokes.contains(query.toLowerCase())){
+            target = target + query;
+        } else {
+            target = target + " haha";
+        }
+        list(command.channel);
+    }
+
+    function horo (command) {
+        categories = [ "aquarius", "pisces", "aries", "taurus", "gemini", "cancer", "leo", "virgo", "libra", "scorpio", "sagittarius", "capricorn" ];
+        if(command.args == "" || command.args == null) {
+            tennu.say(command.channel, "Usage: " + config.trigger + "horo < " + categories.join(" | ") + " >");
+            return 0;
+        }
+        target = "~/bots/bot3-tennu/scripts/list.sh horo ";
+        query = command.args[0];
+        if(categories.contains(query.toLowerCase())){
             target = target + " " + query;
         } else {
             target = target + " haha";
@@ -65,9 +85,10 @@ module.exports = function TennuChuckModule (tennu) {
             "!chuck" : chuck,
             "!fact" : fact,
             "!fortune" : fortune,
-            "!topic" : topic,
+            "!horo" : horo,
             "!joke" : joke,
-            "!quote" : quote
+            "!quote" : quote,
+            "!topic" : topic
         }
     };
 };

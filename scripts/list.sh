@@ -14,9 +14,9 @@ elif [[ "$1" = "joke" ]]; then
 
     lynx -dump "http://www.randomjoke.com/topic/$category.php" > $file 2>&1
 
-    sed -i -n -e '/next joke|/,/Jokes served./p' $file
-    sed -i '/next joke/d' $file
-    sed -i '/Jokes served./d' $file
+    sed -i -n -e '/next joke|/,/Jokes served./p' $file  # Deletes everything from next joke to jokes served
+    sed -i '/next joke/d' $file                         # Deletes the line with next joke
+    sed -i '/Jokes served./d' $file                     # Deletes the line with jokes served
     cat $file
 
     rm $file
@@ -40,6 +40,19 @@ elif [[ "$1" = "trans" ]]; then
 
     sed -i 's/\(.\{24\}\)//' $file     # Gets rid of the first 24 characters
     sed -i 's/\/.*$//' $file         # Gets rid of everything after the /
+
+    cat $file
+    rm $file
+elif [[ "$1" = "horo" ]]; then
+    file="/tmp/horo.txt"
+    
+    category=$2
+
+    lynx -dump "http://my.horoscope.com/astrology/free-daily-horoscope-$category.html" > $file 2>&1
+
+    sed -i '0,/twitter.png/d' $file     # Deletes everything from the start to "twitter.png"
+    sed -i '/ADD/,$d' $file             # Deletes all from ADD to the end
+    sed -i '/^$/d' $file                # Deletes any blank line
 
     cat $file
     rm $file

@@ -6,6 +6,7 @@ module.exports = function TennuHelperModule (tennu) {
                   "act", 
                   "bomb",
                   "calc",
+                  "choose",
                   "chuck",
                   "d20",
                   "dance", 
@@ -14,6 +15,7 @@ module.exports = function TennuHelperModule (tennu) {
                   "google", 
                   "hangman",
                   "help", 
+                  "horo", 
                   "joke",
                   "quote",
                   "roulette", 
@@ -35,6 +37,8 @@ module.exports = function TennuHelperModule (tennu) {
             tennu.say(command.channel, "Useage: " + config.trigger + "bomb <target>")
         } else if(command.args[0] == "calc") {
             tennu.say(command.channel, "Useage: " + config.trigger + "calc [-h] <mathToBeSolved>")
+        } else if(command.args[0] == "choose") {
+            tennu.say(command.channel, "Useage: " + config.trigger + "choose <list of things to choose from>")
         } else if(command.args[0] == "chuck") {
             tennu.say(command.channel, "Useage: " + config.trigger + "chuck");
         } else if(command.args[0] == "d20") {
@@ -51,6 +55,8 @@ module.exports = function TennuHelperModule (tennu) {
             tennu.say(command.channel, "Useage: " + config.trigger + "hangman");
         } else if(command.args[0] == "help") {
             tennu.say(command.channel, "Useage: " + config.trigger + "help [command]");
+        } else if(command.args[0] == "horo") {
+            tennu.say(command.channel, "@horo < aquarius | pisces | aries | taurus | gemini | cancer | leo | virgo | libra | scorpio | sagittarius | capricorn >");
         } else if(command.args[0] == "joke") {
             tennu.say(command.channel, "Useage: " + config.trigger + "joke [oneliners | news | signs | nerd | professional | quotes | lightbulb | couples | riddles | religion | gross | blonde | politics | doit | laws | defs | dirty | ethnic | zippergate]");
         } else if(command.args[0] == "quote") {

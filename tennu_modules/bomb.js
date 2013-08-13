@@ -2,7 +2,7 @@ var config = require('../config/mibbit.json');
 
 module.exports = function TennuBombModule (tennu) {
 
-    time = 10;
+    time = 20;
     defused = false;
     colorList = ["red", "blue", "green", "yellow", "black"];
     defuseColor = "";
